@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-1">
+    <command xml:space="preserve">TheEscape_CGPT_E3</command>
+    <result xml:space="preserve">You trail absentmindedly behind your party. The packs of your companions sway back and forth in the torchlight ahead of you. You've been traveling down this narrow stone hallway for hours now. The most action you've seen today has been the choice between left and right when faced with a fork in these convoluted dungeon hallways. An unexciting day in the dungeon is a good one, for sure. And yet...&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">You trail absentmindedly behind your party. The packs of your companions sway back and forth in the torchlight ahead of you. You've been traveling down this narrow stone hallway for hours now. The most action you've seen today has been the choice between left and right when faced with a fork in these convoluted dungeon hallways. An unexciting day in the dungeon is a good one, for sure. And yet...&#x000A;&#x000A;A Day in the Dungeon&#x000A;An Interactive Fiction by Nico Ailani Carlson feat. ChatGPT&#x000A;Release 1 / Serial number 241006 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Hallway&#x000A;Your eyes water as a yawn overtakes you. You blink rapidly as you try to regain your composure. When you prevail over your oppressive sleepiness you notice that your companions have left you behind. You see their orb of light disappear behind a corner to the north.  You can still hear them arguing about one thing or another. You raise your torch, the light is not as warm and bright as the magical orb but it's plenty to see the way forward. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+      <child nodeId="node-4"/>
+      <child nodeId="node-5"/>
+      <child nodeId="node-87"/>
+      <child nodeId="node-93"/>
+      <child nodeId="node-114"/>
+      <child nodeId="node-175"/>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">Release along with cover art</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">examine me</command>
+    <result xml:space="preserve">That's me. I bet you're wondering how I got here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">&gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;   Hint</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play&#x000A;&#x000A;   Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A; &gt; Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A; &gt; Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A; &gt; Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A; &gt; Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A; &gt; Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A; &gt; Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; Space&#x000A;   Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Most IF games are set in a world made up of rooms without internal division. Movement between rooms is possible; movement within a room does not always amount to anything. &gt;WALK OVER TO THE DESK is rarely a useful sort of command. On the other hand, if something is described as being high or out of reach, it is sometimes relevant to stand on an object to increase your height. This kind of activity tends to be important only if prompted by the game text.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; Space&#x000A;   Containment&#x000A;   Types of Action&#x000A;   Other Characters&#x000A;&#x000A; &gt; Space&#x000A;   Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">One thing that IF does tend to model thoroughly is containment. Is something in or on something else? The game keeps track of this, and many puzzles have to do with where things are -- in the player's possession, lying on the floor of the room, on a table, in a box, etc.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Space&#x000A;   Containment&#x000A;   Types of Action&#x000A; &gt; Other Characters&#x000A;&#x000A;   Space&#x000A;   Containment&#x000A;   Types of Action&#x000A; &gt; Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Space&#x000A;   Containment&#x000A;   Types of Action&#x000A; &gt; Other Characters&#x000A;&#x000A;   Space&#x000A;   Containment&#x000A;   Types of Action&#x000A; &gt; Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Space&#x000A;   Containment&#x000A;   Types of Action&#x000A; &gt; Other Characters&#x000A;&#x000A;   Space&#x000A;   Containment&#x000A;   Types of Action&#x000A; &gt; Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A;   Containment&#x000A; &gt; Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters&#x000A;&#x000A;   Space&#x000A; &gt; Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">&gt; Space&#x000A;   Containment&#x000A;   Types of Action&#x000A;   Other Characters&#x000A;&#x000A; &gt; Space&#x000A;   Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">p</command>
+    <result xml:space="preserve">&gt; Space&#x000A;   Containment&#x000A;   Types of Action&#x000A;   Other Characters&#x000A;&#x000A; &gt; Space&#x000A;   Containment&#x000A;   Types of Action&#x000A;   Other Characters</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A; &gt; If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A; &gt; If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Examine every object and look at everything in your inventory. Open all the doors you can find, and go through them. Look inside all closed containers. Make sure you've exhausted all the options in your environment. &#x000A;&#x000A;Try out all your senses. If the game mentions texture, odor, or sound, try touching, smelling, listening to, or tasting objects.&#x000A;&#x000A;Be thorough. If you still can't figure out what to do, try opening windows, looking under beds, etc. Sometimes objects are well-hidden.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A;   Cooperate&#x000A;&#x000A; &gt; Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">p</command>
+    <result xml:space="preserve">&gt; Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A;   Cooperate&#x000A;&#x000A; &gt; Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A; &gt; If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Hallway&#x000A; You raise your torch, looking around. The beige bricks that are stacked to make the walls of this dungeon are cracked and uneven, worn by the passage of time and the thousands of adventurers who have travelled these halls before you. Ahead of you, to the north you can hear the voices of your companions as they leave you behind.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Hallway (Cont'd)&#x000A;You trot down the hallway after the argumentative babblings of your companions. You hoist your pack higher and pull it flush to your back as you break into a jog. Everyone knows that a surefire way to die in the dungeon is to get separated from your party.&#x000A;&#x000A;You come to a fork, the very same fork you saw your companions disappear behind. You can now make out the glow of your party's conjured magical orb to the east... and you can hear that they are still arguing. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You trot westward down the hallway, hopeful that you'll be able to catch up when-- CLICK --you feel a slight decompression beneath your right foot. Then, suddenly, you are plummeting downwards into darkness.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Your pack catches on the trap opening, ripping it from your back. Then, you are hurtling down a narrow tunnel. You shield your head and neck while attempting to slow your descent by widening your legs. You try not to think about where this chute will spit you out. You hope it's not a room full of spikes or the den of a giant spider.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Trap Room&#x000A; WHAM! --you tumble out of the chute and skid to an uncomfortable stop. For a second you just lie there in the pitch darkness. Then-- tink, tink... TINK! --a warm orange glow illuminates the mouth of the chute and then like a bullet from a gun, your trusty torch comes bouncing out of the hole, skittering to a stop just a few feet away from you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">x torch</command>
+    <result xml:space="preserve">Your trusty torch lies on its side. The flames dance and sputter as they contact with the ground which seems to be covered in small puddles of water. It warms your heart that it followed you down here... but you can't help but feel a bit guilty: It is your fault that the torch is in this mess to begin with.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">&gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;&#x000A; &gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">This is a simple demonstration Fiction game.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;&#x000A; &gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play&#x000A;&#x000A;   Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A; &gt; Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A; &gt; Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">&gt; About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A; &gt; About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The game you are playing is a work of Interactive Fiction.  In interactive fiction you play the main character of a story.  You type commands which determine the actions of the character and the flow of the plot.  Some IF games include graphics, but most do not: the imagery is provided courtesy of your imagination.  On the other hand, there's a wide range of action available: whereas in other games you may be restricted to shooting, movement, or searching items you can click on with a mouse, IF allows you a wide range of verbs.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A; &gt; About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The first thing you want to do when starting a game is acquaint yourself with your surroundings and get a sense of your goal. To this end, you should read the introductory text carefully. Sometimes it contains clues. You will also want to look at the room you are in. Notice where the exits from the room are, and what objects are described here. If any of these seem interesting, you may want to EXAMINE them. &#x000A;&#x000A;You might also want to examine yourself (EXAMINE ME) to see whether the author has left you any clues about your character. TAKE INVENTORY will tell you what you're carrying, as well.&#x000A;&#x000A;Once you've gotten your bearings, you may want to explore. Move from room to room, and check out every location available.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">This is a game created for Narrative Studio as a part of the Game Design MFA program.&#x000A;&#x000A;A Day in the Dungeon is a classic fantasy "escape room" adventure heavily inspired by the lore and aesthetics of Dungeons and Dragons, Lord of the Rings, and especially Dungeon Meshi.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;   Hint&#x000A;&#x000A; &gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;   Hint</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play&#x000A;   Hint&#x000A;&#x000A;   Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play&#x000A;   Hint</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A; &gt; Hint&#x000A;&#x000A;   Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A; &gt; Hint</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The puzzle of the game is pretty straightforward and you are confined to a single room so I won't give you too much help.&#x000A;&#x000A;However, to ensure that you aren't failing because you don't know the appropriate words... Following are all of the actions that you might need in order to succeed in the game, other than the cardinal directions: examine, look, search, take, pull, drop, pry something with something, dig something with something, enter, leave, and wait.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A; &gt; Hint&#x000A;&#x000A;   Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A; &gt; Hint</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play&#x000A;   Hint&#x000A;&#x000A;   Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play&#x000A;   Hint</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">&gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;   Hint&#x000A;&#x000A; &gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;   Hint</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Hallway&#x000A; You raise your torch, looking around. The beige bricks that are stacked to make the walls of this dungeon are cracked and uneven, worn by the passage of time and the thousands of adventurers who have travelled these halls before you. Ahead of you, to the north you can hear the voices of your companions as they leave you behind.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Hallway (Cont'd)&#x000A;You trot down the hallway after the argumentative babblings of your companions. You hoist your pack higher and pull it flush to your back as you break into a jog. Everyone knows that a surefire way to die in the dungeon is to get separated from your party.&#x000A;&#x000A;You come to a fork, the very same fork you saw your companions disappear behind. You can now make out the glow of your party's conjured magical orb to the east... and you can hear that they are still arguing. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You trot westward down the hallway, hopeful that you'll be able to catch up when-- CLICK --you feel a slight decompression beneath your right foot. Then, suddenly, you are plummeting downwards into darkness.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Your pack catches on the trap opening, ripping it from your back. Then, you are hurtling down a narrow tunnel. You shield your head and neck while attempting to slow your descent by widening your legs. You try not to think about where this chute will spit you out. You hope it's not a room full of spikes or the den of a giant spider.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Trap Room&#x000A; WHAM! --you tumble out of the chute and skid to an uncomfortable stop. For a second you just lie there in the pitch darkness. Then-- tink, tink... TINK! --a warm orange glow illuminates the mouth of the chute and then like a bullet from a gun, your trusty torch comes bouncing out of the hole, skittering to a stop just a few feet away from you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">You wearily bend over, feeling the bruises from your bumpy travel down that accursed chute. You take the torch and hear a-- CLICK! --followed by the sound of grinding gears and running water. You look down at your feet in horror and see that the puddles of water are expanding... The room is filling with water!</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You quickly wave your torch about, trying to take in your surroundings. The porous bricks that make up the walls and floor have a putrid sheen to them, looking to be perpetually moist. Forming a macabre pile in the far corner there are the decayed remains of an adventurer, now nothing but a skeleton. A few feet away from the skeleton is a small hole, mostly filled with water.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">There does not immediately appear to be an exit. Just solid walls all around with only one exception: to the north and up about 7 feet is the chute from whence you came.&#x000A;&#x000A;The water hasn't passed the soles of your boots yet. It's still quite low.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">You're still bruised from your fall through the chute but now you're also chock full of panic and wetter than you were before.&#x000A;&#x000A;The water has passed the soles of your boots... The level is certainly rising...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">x skeleton</command>
+    <result xml:space="preserve">You hold your trusty torch up, quickly walking over to the pile of bones in the corner. The skeleton has certainly seen more lively days, it looks like it could be years old. However, some of the longer leg bones still look quite sturdy... Perhaps worth taking?&#x000A;&#x000A;Your boots are now fully submerged and, let's be honest, you're starting to panic.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">take longer leg bone</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">(the trusty torch)&#x000A;You are already carrying your trusty torch!&#x000A;&#x000A;The water passes the midpoint of your shins. You're trying to take deep breaths.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">take bone</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water passes your knees. OK... You really gotta lock in here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The &gt; sign is where the game says, "Okay, what do you want to do now?"  You may respond by typing an instruction -- usually an imperative verb, possibly followed by prepositions and objects.  So, for instance, LOOK, LOOK AT FISH, TAKE FISH.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">menu</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">&gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play&#x000A;   Hints&#x000A;&#x000A;   Introduction to A Day in the Dungeon&#x000A; &gt; Instructions for Play&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A; &gt; Hints&#x000A;&#x000A;   Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A; &gt; Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The puzzle of the game is pretty straightforward and you are confined to a single room so I won't give you too much help. However, to ensure that you aren't failing because you don't know the appropriate words. Following are all of the actions that you need in order to succeed in the game, other than the cardinal directions: examine, look, search, take, pull, drop, pry something with something, dig something with something, enter, leave, and wait.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Hallway (Cont'd)&#x000A;You trot down the hallway after the argumentative babblings of your companions. You hoist your pack higher and pull it flush to your back as you break into a jog. Everyone knows that a surefire way to die in the dungeon is to get separated from your party.&#x000A;&#x000A;You come to a fork, the very same fork you saw your companions disappear behind. You can now make out the glow of your party's conjured magical orb to the east... and you can hear that they are still arguing. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You trot eastward down the hallway, hopeful that you'll be able to catch up to your party when-- CLICK! --you feel a slight decompression beneath your right foot. Then, suddenly, you are plummeting downwards into darkness.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Your pack catches on the trap opening, ripping it from your back. Then, you are hurtling down a narrow tunnel. You shield your head and neck while attempting to slow your descent by widening your legs. You try not to think about where this chute will spit you out. You hope it's not a room full of spikes or the den of a giant spider.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Trap Room&#x000A; WHAM! --you tumble out of the chute and skid to an uncomfortable stop. For a second you just lie there in the pitch darkness. Then-- tink, tink... TINK! --a warm orange glow illuminates the mouth of the chute and then like a bullet from a gun, your trusty torch comes bouncing out of the hole, skittering to a stop just a few feet away from you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+      <child nodeId="node-97"/>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">You wearily bend over, feeling the bruises from your bumpy travel down that accursed chute. You take the torch and hear a-- CLICK! --followed by the sound of grinding gears and running water. You look down at your feet in horror and see that the puddles of water are expanding... The room is filling with water!</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You quickly wave your torch about, trying to take in your surroundings. The porous bricks that make up the walls and floor have a putrid sheen to them, looking to be perpetually moist. Forming a macabre pile in the far corner there are the decayed remains of an adventurer, now nothing but a skeleton. A few feet away from the skeleton is a small hole, mostly filled with water.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">There does not immediately appear to be an exit. Just solid walls all around with only one exception: to the north and up about 7 feet is the chute from whence you came.&#x000A;&#x000A;The water hasn't passed the soles of your boots yet. It's still quite low.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water has passed the soles of your boots... The level is certainly rising...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Your boots are now fully submerged and, let's be honest, you're starting to panic.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water passes the midpoint of your shins. You're trying to take deep breaths.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water passes your knees. OK... You really gotta lock in here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water passes your waist. Mobility is restricted and things are now even more serious than they were before.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water passes your chest. The cold grip of the water seizes your chest. It doesn't feel good.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;You are now treading water. Your thoughts are jumbled as you gasp for air.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;As the water level begins to exceed your height, you accidentally dip the torch into the murky waters and-- HISS... --the room is plunged into pitch darkness as the torch is extinguished. &#x000A;&#x000A;The top of your head presses against the ceiling. It feels hopeless and oppressive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;You are forced underwater. Your mind skips around your whole history. Is this what they meant when they said your life would flash before your eyes? Sheer panic and scattered thoughts?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">enter chute</command>
+    <result xml:space="preserve">You flail about in the water, reaching out to try to find the chute. You use the wall as a guide and try to stay calm. Your heart races and your lungs burn but eventually your fingers find the lip of the chute and-- GASP! --you surface in--&#x000A;&#x000A;Trap Room, Chute&#x000A;After collecting your breath and stabilizing your heart rate, you notice that the water level doesn't seem to be rising. However, it also doesn't seem to be falling... These old trap mechanisms run on ancient systems of cogs and magic. It could be weeks before the room begins to drain... In fact, these traps often break upon triggering, meaning that the room could never drain.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">YOU DONE BE EXITING!&#x000A;&#x000A;You feel pain steadily growing within your lungs. You still have some time.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">think</command>
+    <result xml:space="preserve">Oh Gods... The room is filling with water! It's hard to think straight when your life is on the line! Maybe look around? Pick stuff up? Put stuff down? Look what you've done: Now I'm panicking too!&#x000A;&#x000A;Your lungs scream for air. You are almost out of breath.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">You wearily bend over, feeling the bruises from your bumpy travel down that accursed chute. You take the torch and hear a-- CLICK! --followed by the sound of grinding gears and running water. You look down at your feet in horror and see that the puddles of water are expanding... The room is filling with water!</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You quickly wave your torch about, trying to take in your surroundings. The porous bricks that make up the walls and floor have a putrid sheen to them, looking to be perpetually moist. Forming a macabre pile in the far corner there are the decayed remains of an adventurer, now nothing but a skeleton. A few feet away from the skeleton is a small hole, mostly filled with water.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">There does not immediately appear to be an exit. Just solid walls all around with only one exception: to the north and up about 7 feet is the chute from whence you came.&#x000A;&#x000A;The water hasn't passed the soles of your boots yet. It's still quite low.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water has passed the soles of your boots... The level is certainly rising...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Your boots are now fully submerged and, let's be honest, you're starting to panic.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">wai</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water passes the midpoint of your shins. You're trying to take deep breaths.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water passes your knees. OK... You really gotta lock in here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water passes your waist. Mobility is restricted and things are now even more serious than they were before.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The water passes your chest. The cold grip of the water seizes your chest. It doesn't feel good.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;You are now treading water. Your thoughts are jumbled as you gasp for air.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;As the water level begins to exceed your height, you accidentally dip the torch into the murky waters and-- HISS... --the room is plunged into pitch darkness as the torch is extinguished. &#x000A;&#x000A;The top of your head presses against the ceiling. It feels hopeless and oppressive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;You are forced underwater. Your mind skips around your whole history. Is this what they meant when they said your life would flash before your eyes? Sheer panic and scattered thoughts?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">enter chute</command>
+    <result xml:space="preserve">You flail about in the water, reaching out to try to find the chute. You use the wall as a guide and try to stay calm. Your heart races and your lungs burn but eventually your fingers find the lip of the chute and-- GASP! --you surface in--&#x000A;&#x000A;Trap Room, Chute&#x000A;After collecting your breath and stabilizing your heart rate, you notice that the water level doesn't seem to be rising. However, it also doesn't seem to be falling... These old trap mechanisms run on ancient systems of cogs and magic. It could be weeks before the room begins to drain... In fact, these traps often break upon triggering, meaning that the room could never drain.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You feel pain steadily growing within your lungs. You still have some time.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">enter chute</command>
+    <result xml:space="preserve">You flail about, swimming frantically back to the chute for another gulp of air. No matter how many times you do this you are absolutely positive that the experience of searching for the chute in pitch darkness will never not be gut-wrenchingly terrifying. You resurface with a gasp in--&#x000A;&#x000A;Trap Room, Chute&#x000A;It's pitch dark in here but you think you can see the glimmer of some sort of light below you, in the submerged trap room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You feel pain steadily growing within your lungs. You still have some time.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">x skeleton</command>
+    <result xml:space="preserve">You hold your trusty torch up, quickly walking over to the pile of bones in the corner. The skeleton has certainly seen more lively days, it looks like it could be years old. However, some of the longer leg bones still look quite sturdy... Perhaps worth taking?&#x000A;&#x000A;The water has passed the soles of your boots... The level is certainly rising...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">take bone</command>
+    <result xml:space="preserve">You grimace as you snap off one of the larger leg bones from the skeleton. You forget the name of it but it's the thicker one in your thigh. You feel a phantom pain in your own leg as you shove the bone through your belt.&#x000A;&#x000A;Your boots are now fully submerged and, let's be honest, you're starting to panic.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">search hole</command>
+    <result xml:space="preserve">You reach down into the murky water and almost immediately you feel the bottom of the hole, only a foot or so down. As you feel around the rough bottom of the hole you find your fingers wrapping around some sort of shaft or handle.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You hold up what looks to be a small shovel or trowel. You grimace, thinking of the skeleton in the corner. Looks like that fellow tried to dig their way out and... well, they didn't make it very far, did they?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Nevertheless, you tuck the shovel into your belt.&#x000A;&#x000A;The water passes the midpoint of your shins. You're trying to take deep breaths.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">drop torch</command>
+    <result xml:space="preserve">You release your trusty torch, it hisses as it makes contact with the water, and then the room is plunged into pitch darkness.&#x000A;&#x000A;The water passes your knees. OK... You really gotta lock in here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Trap Room&#x000A;Now that the trusty torch has been extinguished, you can't see anything but you can remember that there were some things nearby. You try to focus your mind and remember where everything is. There's the skeleton... The chute... Wasn't there a hole?&#x000A;&#x000A; Hold on... At first you think its your imagination but you actually see a glimmer of light in the darkness. A dim, illuminant speck that calls to you hopefully. &#x000A;&#x000A;The water passes your waist. Mobility is restricted and things are now even more serious than they were before.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">x speck</command>
+    <result xml:space="preserve">In the pitch darkness, a glimmer of hope peeks through the folds of a few bricks in the wall. You reach up and scrape at the bricks with your fingers but you don't quite have the strength to pry apart the bricks.&#x000A;&#x000A;The water passes your chest. The cold grip of the water seizes your chest. It doesn't feel good.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">pry bricks with bone</command>
+    <result xml:space="preserve">You desperately shove the bone in the gap between the bricks where the glimmer shines. You brace yourself against the ceiling, grasping for purchase on the wall as you pull the bone to the side, trying to pry the bricks from the wall. You feel the bricks come loose suddenly and as the dust and debris clears you see you've made the hole larger, a beacon of light now streaming into the dark trap room.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">However, a narrow tunnel of tightly packed earth still stands between you and the light source. You claw desperately at the opening but your weak fingers are not strong enough to dig at such dense dirt and stone.&#x000A;&#x000A;You are now treading water. Your thoughts are jumbled as you gasp for air.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">dig opening with shovel</command>
+    <result xml:space="preserve">You tear the shovel from your belt and start digging frantically at the tightly packed earth. It feels like an eternity but eventually the hole is large enough for you to fit through. Gorgeous, radiant light pours onto your face as you scramble towards the exit. You are ignorant of pain as you grab and pull and scrape your way towards freedom. All you see is blinding light and you're so close you can... almost--&#x000A;&#x000A;GASP! --you emerge into a well lit, unflooded room, shoving aside a cracked tile to pour yourself onto the floor. You just lie there for a few minutes, staring at the golden ceiling and the sconces crackling with arcane fire. As you come to terms with still being alive you look around the room.&#x000A;&#x000A;Golden Room&#x000A; You are surrounded by treasure: ornate chests, piles of gold coin, loose jewelry and gems... If your eyes could become dollar signs, it would be happening right now. Other than the immense riches, sconces crackling with arcane fire line the walls, providing the radiant gold light.  &#x000A;&#x000A; You look frantically for an exit and your heart sinks... It looks as if the only exits are either back the way you came: NO. Or a behemoth stone door with no visible handle. Next to the stone door is a metal lever... please, let it be that easy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and are greeted with the sweet symphony of grinding stone! You're free! Actually free!&#x000A;&#x000A;&#x000A;&#x000A;    *** Much to your surprise and theirs, the door opens and you are then face to face with your party. It seems as if they had been attempting to gain access to this treasure room. And as luck would have it, they happened to have an agent on the inside!&#x000A;&#x000A;Your party is so thrilled to have access to all of this treasure they forget to reprimand you for getting lost. And you're so thrilled to be alive and rich that you forget to be peeved that they left you behind and were looking to break into a treasure room instead of looking for you.&#x000A;&#x000A;You feel the warmth and comfort of being reunited with your party. Unadulterated joy courses through you as you are congratulated with a series of shoulder and back pats. You make a silent promise to yourself to never get separated again.&#x000A;&#x000A;Just another day in the dungeon. Dungeon delving. Oh, dungeon delving. ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">take bonee</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">take bone</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Hallway (Cont'd)&#x000A;You trot down the hallway after the argumentative babblings of your companions. You hoist your pack higher and pull it flush to your back as you break into a jog. Everyone knows that a surefire way to die in the dungeon is to get separated from your party.&#x000A;&#x000A;You come to a fork, the very same fork you saw your companions disappear behind. You can now make out the glow of your party's conjured magical orb to the east... and you can hear that they are still arguing. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You trot eastward down the hallway, hopeful that you'll be able to catch up to your party when-- CLICK! --you feel a slight decompression beneath your right foot. Then, suddenly, you are plummeting downwards into darkness.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Your pack catches on the trap opening, ripping it from your back. Then, you are hurtling down a narrow tunnel. You shield your head and neck while attempting to slow your descent by widening your legs. You try not to think about where this chute will spit you out. You hope it's not a room full of spikes or the den of a giant spider.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Trap Room&#x000A; WHAM! --you tumble out of the chute and skid to an uncomfortable stop. For a second you just lie there in the pitch darkness. Then-- tink, tink... TINK! --a warm orange glow illuminates the mouth of the chute and then like a bullet from a gun, your trusty torch comes bouncing out of the hole, skittering to a stop just a few feet away from you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">take bone</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">x skeleton</command>
+    <result xml:space="preserve">Your trusty torch lies in wait on the floor, waiting to be put to use. You can't see much without it!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">You wearily bend over, feeling the bruises from your bumpy travel down that accursed chute. You take the torch and hear a-- CLICK! --followed by the sound of grinding gears and running water. You look down at your feet in horror and see that the puddles of water are expanding... The room is filling with water!</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You quickly wave your torch about, trying to take in your surroundings. The porous bricks that make up the walls and floor have a putrid sheen to them, looking to be perpetually moist. Forming a macabre pile in the far corner there are the decayed remains of an adventurer, now nothing but a skeleton. A few feet away from the skeleton is a small hole, mostly filled with water.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">There does not immediately appear to be an exit. Just solid walls all around with only one exception: to the north and up about 7 feet is the chute from whence you came.&#x000A;&#x000A;The water hasn't passed the soles of your boots yet. It's still quite low.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">x skeleton</command>
+    <result xml:space="preserve">You hold your trusty torch up, quickly walking over to the pile of bones in the corner. The skeleton has certainly seen more lively days, it looks like it could be years old. However, some of the longer leg bones still look quite sturdy... Perhaps worth taking?&#x000A;&#x000A;The water has passed the soles of your boots... The level is certainly rising...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">take bone</command>
+    <result xml:space="preserve">You grimace as you snap off one of the larger leg bones from the skeleton. You forget the name of it but it's the thicker one in your thigh. You feel a phantom pain in your own leg as you shove the bone through your belt.&#x000A;&#x000A;Your boots are now fully submerged and, let's be honest, you're starting to panic.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">take bone</command>
+    <result xml:space="preserve">You're already carrying one bone... You don't really need another one.&#x000A;&#x000A;The water passes the midpoint of your shins. You're trying to take deep breaths.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">x bone</command>
+    <result xml:space="preserve">You've shoved the bone through your belt. Despite it being the rotting remains of a regrettably retired adventurer... its heft and sturdiness are somewhat comforting.&#x000A;&#x000A;The water passes your knees. OK... You really gotta lock in here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">x hole</command>
+    <result xml:space="preserve">As the water level begins to rise the hole itself is mostly obscured. It's not particularly wide but maybe it is quite deep? Though you can't see through the murky water, you could search it by reaching inside.&#x000A;&#x000A;The water passes your waist. Mobility is restricted and things are now even more serious than they were before.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">reach inside hole</command>
+    <result xml:space="preserve">Remembering where the hole was before it was fully submerged in water, you reach down towards the hole. You feel around the rough bottom of the hole and find your fingers wrapping around some sort of shaft or handle.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You hold up what looks to be a miniature shovel. You grimace, thinking of the skeleton in the corner. Looks like that fellow tried to dig their way out and... well, they didn't make it very far, did they?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] n&#x000A;&#x000A;Hallway (Cont'd)&#x000A;You trot down the hallway after the argumentative babblings of your companions. You hoist your pack higher and pull it flush to your back as you break into a jog. Everyone knows that a surefire way to die in the dungeon is to get separated from your party.&#x000A;&#x000A;You come to a fork, the very same fork you saw your companions disappear behind. You can now make out the glow of your party's conjured magical orb to the east... and you can hear that they are still arguing. &#x000A;&#x000A;&gt;[2] e&#x000A;You trot eastward down the hallway, hopeful that you'll be able to catch up to your party when-- CLICK! --you feel a slight decompression beneath your right foot. Then, suddenly, you are plummeting downwards into darkness.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Your pack catches on the trap opening, ripping it from your back. Then, you are hurtling down a narrow tunnel. You shield your head and neck while attempting to slow your descent by widening your legs. You try not to think about where this chute will spit you out. You hope it's not a room full of spikes or the den of a giant spider.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Trap Room&#x000A; WHAM! --you tumble out of the chute and skid to an uncomfortable stop. For a second you just lie there in the pitch darkness. Then-- tink, tink... TINK! --a warm orange glow illuminates the mouth of the chute and then like a bullet from a gun, your trusty torch comes bouncing out of the hole, skittering to a stop just a few feet away from you.&#x000A;&#x000A;&gt;[3] take torch&#x000A;You wearily bend over, feeling the bruises from your bumpy travel down that accursed chute. You take the torch and hear a-- CLICK! --followed by the sound of grinding gears and running water. You look down at your feet in horror and see that the puddles of water are expanding... The room is filling with water!</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You quickly wave your torch about, trying to take in your surroundings. The porous bricks that make up the walls and floor have a putrid sheen to them, looking to be perpetually moist. Forming a macabre pile in the far corner there are the decayed remains of an adventurer, now nothing but a skeleton. A few feet away from the skeleton is a small hole, mostly filled with water.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">There does not immediately appear to be an exit. Just solid walls all around with only one exception: to the north and up about 7 feet is the chute from whence you came.&#x000A;&#x000A;The water hasn't passed the soles of your boots yet. It's still quite low.&#x000A;&#x000A;&gt;[4] x hole&#x000A;As the water level begins to rise the hole itself is mostly obscured. It's not particularly wide but maybe it is quite deep? Though you can't see through the murky water, you could search it by reaching inside.&#x000A;&#x000A;The water has passed the soles of your boots... The level is certainly rising...&#x000A;&#x000A;&gt;[5] search hole&#x000A;You reach down into the murky water and almost immediately you feel the bottom of the hole, only a foot or so down. As you feel around the rough bottom of the hole you find your fingers wrapping around some sort of shaft or handle.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You hold up what looks to be a small shovel or trowel. You grimace, thinking of the skeleton in the corner. Looks like that fellow tried to dig their way out and... well, they didn't make it very far, did they?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Nevertheless, you tuck the shovel into your belt.&#x000A;&#x000A;Your boots are now fully submerged and, let's be honest, you're starting to panic.&#x000A;&#x000A;&gt;[6] x skeleton&#x000A;You hold your trusty torch up, quickly walking over to the pile of bones in the corner. The skeleton has certainly seen more lively days, it looks like it could be years old. However, some of the longer leg bones still look quite sturdy... Perhaps worth taking?&#x000A;&#x000A;The water passes the midpoint of your shins. You're trying to take deep breaths.&#x000A;&#x000A;&gt;[7] take bone&#x000A;You grimace as you snap off one of the larger leg bones from the skeleton. You forget the name of it but it's the thicker one in your thigh. You feel a phantom pain in your own leg as you shove the bone through your belt.&#x000A;&#x000A;The water passes your knees. OK... You really gotta lock in here.&#x000A;&#x000A;&gt;[8] wait&#x000A;Time passes.&#x000A;&#x000A;The water passes your waist. Mobility is restricted and things are now even more serious than they were before.&#x000A;&#x000A;&gt;[9] drop torch&#x000A;You release your trusty torch, it hisses as it makes contact with the water, and then the room is plunged into pitch darkness.&#x000A;&#x000A;The water passes your chest. The cold grip of the water seizes your chest. It doesn't feel good.&#x000A;&#x000A;&gt;[10] wait&#x000A;Time passes.&#x000A;&#x000A;You are now treading water. Your thoughts are jumbled as you gasp for air.&#x000A;&#x000A;&gt;[11] wait&#x000A;Time passes.&#x000A;&#x000A;The top of your head presses against the ceiling. It feels hopeless and oppressive.&#x000A;&#x000A;&gt;[12] wait&#x000A;Time passes.&#x000A;&#x000A;You are forced underwater. Your mind skips around your whole history. Is this what they meant when they said your life would flash before your eyes? Sheer panic and scattered thoughts?&#x000A;&#x000A;&gt;[13] enter chute&#x000A;You flail about in the water, reaching out to try to find the chute. You use the wall as a guide and try to stay calm. Your heart races and your lungs burn but eventually your fingers find the lip of the chute and-- GASP! --you surface in--&#x000A;&#x000A;Trap Room, Chute&#x000A;After collecting your breath and stabilizing your heart rate, you notice that the water level doesn't seem to be rising. However, it also doesn't seem to be falling... These old trap mechanisms run on ancient systems of cogs and magic. It could be weeks before the room begins to drain... In fact, these traps often break upon triggering, meaning that the room could never drain.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">You take a shuddering, deep breath and dive back into the abyssal waters.&#x000A;&#x000A;Trap Room&#x000A;For a moment, the shock to your body blinds you and scatters your thoughts. Then, after a few moments you regain your faculties and look around. &#x000A;&#x000A;You see, in what you assume is the far corner of the room, a dim sliver of light. For a moment you think it's your trusty torch... But it couldn't possibly! You're under water!&#x000A;&#x000A;Your lungs scream for air.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You take a shuddering, deep breath and dive back into the abyssal waters.&#x000A;&#x000A;Trap Room&#x000A;For a moment, the shock to your body blinds you and scatters your thoughts. Then, after a few moments you regain your faculties and look around. &#x000A;&#x000A;You see, in what you assume is the far corner of the room, a dim sliver of light. For a moment you think it's your trusty torch... But it couldn't possibly! You're under water!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">You look down at yourself. You're quite wiry (some would say emaciated) but surprisingly clean and uninjured after a few months straight down here in the dungeon. You let out a weary sigh and swap torch hands to stretch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Hallway (Cont'd)&#x000A;You trot down the hallway after the argumentative babblings of your companions. You hoist your pack higher and pull it flush to your back as you break into a jog. Everyone knows that a surefire way to die in the dungeon is to get separated from your party.&#x000A;&#x000A;You come to a fork, the very same fork you saw your companions disappear behind. You can now make out the glow of your party's conjured magical orb to the east... and you can hear that they are still arguing. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">You look down at yourself. You're quite wiry (some would say emaciated) but surprisingly clean and uninjured after a few months straight down here in the dungeon. You let out a weary sigh and swap torch hands to stretch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You trot eastward down the hallway, hopeful that you'll be able to catch up to your party when-- CLICK! --you feel a slight decompression beneath your right foot. Then, suddenly, you are plummeting downwards into darkness.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Your pack catches on the trap opening, ripping it from your back. Then, you are hurtling down a narrow tunnel. You shield your head and neck while attempting to slow your descent by widening your legs. You try not to think about where this chute will spit you out. You hope it's not a room full of spikes or the den of a giant spider.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Trap Room&#x000A; WHAM! --you tumble out of the chute and skid to an uncomfortable stop. For a second you just lie there in the pitch darkness. Then-- tink, tink... TINK! --a warm orange glow illuminates the mouth of the chute and then like a bullet from a gun, your trusty torch comes bouncing out of the hole, skittering to a stop just a few feet away from you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">You ensure that you don't have any serious wounds. You're pretty beat up from your descent through the chute but it seems to just be bruises and nothing is broken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">&gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">This is a simple demonstration Fiction game.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play&#x000A;&#x000A; &gt; Introduction to A Day in the Dungeon&#x000A;   Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

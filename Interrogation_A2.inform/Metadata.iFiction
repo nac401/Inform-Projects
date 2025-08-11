@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>01C0B838-1394-41DE-B426-905E34F3762B</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>CHARLIE</title>
+            <author>Nico Ailani Carlson</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2024</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>png</format>
+            <height>500</height>
+            <width>630</width>
+            <description>The cover art.</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2024-11-08</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>Inform 10.1.2 (build )</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>Inform 10.1.2 (build )</generatorversion>
+            <originated>2024-11-08</originated>
+        </colophon>
+        <glulx>
+            <serial>241108</serial>
+            <release>1</release>
+            <compiler>Inform Inform 10.1.2 (build )</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>

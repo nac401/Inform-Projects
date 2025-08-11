@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-7">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-7">
+    <command xml:space="preserve">Dialogue_Proj</command>
+    <result xml:space="preserve">Dialogue_Proj&#x000A;An Interactive Fiction by nico ailani carlson&#x000A;Release 1 / Serial number 241003 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Mrs Lovett's Meat Pies&#x000A;You can see Mrs Lovett here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+      <child nodeId="node-20"/>
+      <child nodeId="node-26"/>
+      <child nodeId="node-43"/>
+      <child nodeId="node-10"/>
+      <child nodeId="node-8"/>
+      <child nodeId="node-39"/>
+      <child nodeId="node-11"/>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">ask mom about mortality</command>
+    <result xml:space="preserve">"I'm never going to die!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">ask mom about peach</command>
+    <result xml:space="preserve">Mom says "There's a peach here, but I wish we had more fruits!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">tell mom about plum</command>
+    <result xml:space="preserve">This provokes no reaction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Kitchen&#x000A;It's just a kitchen bro idk.&#x000A;&#x000A;You can see a plum here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Living Room&#x000A;Your living room.&#x000A;&#x000A;You can see a peach and Mom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">tell mom about plum</command>
+    <result xml:space="preserve">Mom says "OMG we have plums? Grab one for me!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">take peach</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">show peach to mom</command>
+    <result xml:space="preserve">"I don't want this! I want a plum!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">give peach to mom</command>
+    <result xml:space="preserve">Mom doesn't seem interested.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">show plum to mom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Kitchen&#x000A;It's just a kitchen bro idk.&#x000A;&#x000A;You can see a plum here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">take plum</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Living Room&#x000A;Your living room.&#x000A;&#x000A;You can see Mom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">show plum to mom</command>
+    <result xml:space="preserve">"Gimme dat!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">give plum to mom</command>
+    <result xml:space="preserve">"Thank you so much! It's exactly what I wanted!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a peach&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">talk to lovett</command>
+    <result xml:space="preserve">I didn't understand that number.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">is there a job here</command>
+    <result xml:space="preserve">I didn't understand that number.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">No such option is available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">No such option is available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">3</command>
+    <result xml:space="preserve">No such option is available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">ask lovett about pies</command>
+    <result xml:space="preserve">"What pies do you have in today, Mrs Lovett?" you ask. She starts, then smiles. "Meat pies, of course."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">ask lovett about employment</command>
+    <result xml:space="preserve">Do you mean (1) whether there is a job available here, or (2) what happened to that boy that worked here?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"Say, are you hiring?" you ask, as casually as you can manage. Mrs Lovett looks you over dubiously. "I might be hiring someone, but I can't say it would necessarily be you."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">"Tell me, didn't you used to have a young assistant working here?" She shrugs. "Young men these days are so unstable. He left-- who knows where he's gone? I haven't seen hair or fingernail of him for weeks."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">ask lovett about pies</command>
+    <result xml:space="preserve">"What kind of meat goes into these pies, Mrs Lovett?" you ask pressingly. She looks shifty. "Whatever the butcher brings this week," she says. "With the price of meat what it is, when you get it, you have to be glad of what you can get. If you get it."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">Mom says "Yeah, Baby! Let's talk."&#x000A;&#x000A;1) "Sup, Mom."&#x000A;&#x000A;2) "What's the fruit problem?"&#x000A;&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Mom says, "I'm doing OK!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">Mom says "Yeah, Baby! Let's talk."&#x000A;&#x000A;1) Error: no link text for FRUITPROBLEM. &#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">Mom says, "Oh my. I think I just need a plum!"&#x000A;&#x000A;1) Error: no link text for PLUMIDEA. &#x000A;2) Error: no link text for PEACHIDEA. &#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">talk to peach</command>
+    <result xml:space="preserve">You can only do that to something animate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">Mom doesn't reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">talkt o mom</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">Mom says "Yeah, Baby! Let's talk."&#x000A;&#x000A;1) "Sup, Mom."&#x000A;&#x000A;2) "What's the fruit problem?"&#x000A;&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">Mom says, "Oh my. I think I just need a plum!"&#x000A;&#x000A;1) "Where's the plum?"&#x000A;&#x000A;2) "What about a peach?"&#x000A;&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Mom says, "Oh, I don't know. Maybe in the kitchen!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">x mom</command>
+    <result xml:space="preserve">She is smiling. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">"Hey, Honey."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">x mom</command>
+    <result xml:space="preserve">She is sobbing uncontrollably. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">"I want fruit!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">x mom</command>
+    <result xml:space="preserve">She looks stoic.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">"Shut up!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">"Hey, Honey."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">talk to mom</command>
+    <result xml:space="preserve">"I want fruit!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">x peach</command>
+    <result xml:space="preserve">A beautiful, soft and fuzzy peach.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

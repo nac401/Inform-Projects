@@ -1,0 +1,38 @@
+! Blurb file created by Inform Inform 10.1.2 (build )
+
+status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\Users\NicoA\Documents\Inform\Projects\Train_Heist.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\NicoA\Documents\Inform\Projects\Train_Heist.inform"
+release to "C:\Users\NicoA\Documents\Inform\Projects\Train_Heist.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Runaway Heist.gblorb"
+storyfile "C:\Users\NicoA\Documents\Inform\Projects\Train_Heist.inform\Build\output.ulx" include
+ifiction "C:\Users\NicoA\Documents\Inform\Projects\Train_Heist.inform\Metadata.iFiction" include
+cover "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+picture 1 "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "60F78402-F380-4668-A6AB-7FA95E4D097F"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2025"
+placeholder [TITLE] = "Runaway Heist"
+placeholder [AUTHOR] = "Chatworth_G_Petey"
+placeholder [BLURB] = "You've stolen a mystical artifact from a speeding train. Now the train is out of control-and if you can't stop it, you'll never escape with your prize."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||

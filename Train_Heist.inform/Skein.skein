@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-81">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-81">
+    <command xml:space="preserve">Train_Heist</command>
+    <result xml:space="preserve">The artifact is in your hands. The train roars through the night. The job's gone wrong-the engineer's dead, the locomotive is out of control, and the artifact won't mean much if you crash and burn.&#x000A;&#x000A;Runaway Heist&#x000A;A short pulp train-heist by Chatworth_G_Petey&#x000A;Release 1 / Serial number 250901 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+      <child nodeId="node-104"/>
+      <child nodeId="node-106"/>
+      <child nodeId="node-115"/>
+      <child nodeId="node-125"/>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">examine caboose</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">examine luggage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">examine seats</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">examine glass</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You strain, but the lever won't budge. Something's caught in the gears.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">examine panel</command>
+    <result xml:space="preserve">In the broken panel is a piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">take metal</command>
+    <result xml:space="preserve">You yank the metal free-it screeches out of the gear teeth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">examine panel</command>
+    <result xml:space="preserve">The broken panel is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">examine metal</command>
+    <result xml:space="preserve">You see nothing special about the piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">drop metal</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a piece of metal and a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an artifact&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">x artifact</command>
+    <result xml:space="preserve">A crystalline idol that glows faintly with its own inner storm. Worth a fortune, if you live.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">x lever</command>
+    <result xml:space="preserve">A heavy steel lever, stuck halfway down. It looks like the only way to stop the train.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">x brakes</command>
+    <result xml:space="preserve">A heavy steel lever, stuck halfway down. It looks like the only way to stop the train.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You strain, but the lever won't budge. Something's caught in the gears.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+      <child nodeId="node-122"/>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">x panel</command>
+    <result xml:space="preserve">In the broken panel is a piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;You can see a brake lever and a broken panel (in which is a piece of metal) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">take metal</command>
+    <result xml:space="preserve">You yank the metal free-it screeches out of the gear teeth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">forward</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">x panel</command>
+    <result xml:space="preserve">In the broken panel is a piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+      <child nodeId="node-194"/>
+      <child nodeId="node-191"/>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">enter panel</command>
+    <result xml:space="preserve">You get into the broken panel.&#x000A;&#x000A;A bent piece of metal is jammed in the gears.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">x panel</command>
+    <result xml:space="preserve">In the broken panel is a piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">take metal</command>
+    <result xml:space="preserve">You yank the metal free-it screeches out of the gear teeth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">take panel</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">close panel</command>
+    <result xml:space="preserve">It isn't something you can close.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">open panel</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">x broken panel</command>
+    <result xml:space="preserve">A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;In the broken panel is a piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">x metal</command>
+    <result xml:space="preserve">You see nothing special about the piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">enter panel</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">x panel</command>
+    <result xml:space="preserve">In the broken panel is a piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+      <child nodeId="node-131"/>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">examine panel</command>
+    <result xml:space="preserve">In the broken panel is a piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">take metal</command>
+    <result xml:space="preserve">You yank the metal free-it screeches out of the gear teeth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">With a wrenching pull, the brake lever slams down. The wheels scream, the train screeches to a halt. The artifact hums in your arms-the heist is complete.&#x000A;&#x000A;&#x000A;&#x000A;    *** You've stopped the train. Now all that remains is the escape-and the world you've left behind. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Caboose&#x000A;The caboose rattles dangerously. You could leap from here-if only the train weren't moving so fast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Caboose&#x000A;The caboose rattles dangerously. You could leap from here-if only the train weren't moving so fast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Caboose&#x000A;The caboose rattles dangerously. You could leap from here-if only the train weren't moving so fast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Caboose&#x000A;The caboose rattles dangerously. You could leap from here-if only the train weren't moving so fast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Caboose&#x000A;The caboose rattles dangerously. You could leap from here-if only the train weren't moving so fast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">examine panel</command>
+    <result xml:space="preserve">In the broken panel is a piece of metal.&#x000A;&#x000A;&#x000A;&#x000A;    *** The train derails in a blaze of steel and fire, taking you and the artifact with it. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&#x000A;&#x000A;    *** The train derails in a blaze of steel and fire, taking you and the artifact with it. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">noth</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&#x000A;&#x000A;    *** The train derails in a blaze of steel and fire, taking you and the artifact with it. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">The artifact is in your hands. The train roars through the night. The job's gone wrong-the engineer's dead, the locomotive is out of control, and the artifact won't mean much if you crash and burn.&#x000A;&#x000A;Runaway Heist&#x000A;A short pulp train-heist by Chatworth_G_Petey&#x000A;Release 1 / Serial number 250826 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">examine panel</command>
+    <result xml:space="preserve">In the broken panel is a piece of metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">take piece of metal</command>
+    <result xml:space="preserve">You yank the metal free-it screeches out of the gear teeth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">With a wrenching pull, the brake lever slams down. The wheels scream, the train screeches to a halt. The artifact hums in your arms-the heist is complete.&#x000A;&#x000A;&#x000A;&#x000A;    *** You've stopped the train. Now all that remains is the escape-and the world you've left behind. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Caboose&#x000A;The caboose rattles dangerously. You could leap from here-if only the train weren't moving so fast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">leap</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Locomotive&#x000A;Steel walls, gauges shattered, levers jammed. The engineer lies slumped, gone. The only hope is to somehow stop the train.&#x000A;&#x000A;A maintenance panel hangs open, exposing sparking wires and a nest of gears.&#x000A;&#x000A;You can also see a brake lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Dining Car&#x000A;Shards of glass crunch beneath your boots. A door ahead leads to the Locomotive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Passenger Car&#x000A;Rows of torn seats, luggage spilling everywhere. Sparks flicker overhead. The Dining Car is forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Baggage Car&#x000A;Dim light. Crates rattle and clatter as the train barrels forward. The only comfort: the artifact, clutched in your grip. A door leads forward to the Passenger Car. Behind you, the Caboose sways precariously.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

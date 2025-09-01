@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>60F78402-F380-4668-A6AB-7FA95E4D097F</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Runaway Heist</title>
+            <author>Chatworth_G_Petey</author>
+            <headline>A short pulp train-heist</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2025</firstpublished>
+            <description>You've stolen a mystical artifact from a speeding train. Now the train is out of control-and if you can't stop it, you'll never escape with your prize.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2025-09-01</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>Inform 10.1.2 (build )</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>Inform 10.1.2 (build )</generatorversion>
+            <originated>2025-09-01</originated>
+        </colophon>
+        <glulx>
+            <serial>250901</serial>
+            <release>1</release>
+            <compiler>Inform Inform 10.1.2 (build )</compiler>
+        </glulx>
+    </story>
+</ifindex>

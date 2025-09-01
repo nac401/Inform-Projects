@@ -134,6 +134,7 @@ Every turn:
 	Increase Withdrawal_Amount by 1;
 	if Withdrawal_Amount is greater than 5:
 		end the story saying "Your head splits open. Your thirst for liquor dominating your senses. You cannot go on."
+[one of: a neat little tool for varied descriptions, there are plenty of different suffixes other than "at random" to experiment with]
 		
 [CONDITIONAL VOCABULARY]
 A thing can be examined or unexamined.
@@ -166,7 +167,3 @@ Check caressing:
 		say "Yuck. That's rough and gross.";
 		
 The whiskey is good-to-touch.]
-
-Chapter 2 - The Crime Scene
-
-Chapter 3 - The Interrogation

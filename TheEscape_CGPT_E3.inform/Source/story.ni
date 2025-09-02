@@ -12,8 +12,9 @@ Table of Basic Help Options (continued)
 When play begins:
 	[ADD HELP MENU DESC]
 	choose row 1 in Table of Basic Help Options;
-	[START PROLOGUE]
 	now description entry is "[italic type]This is a game created for Narrative Studio as a part of the Game Design MFA program.[roman type][line break][line break][italic type]A Day in the Dungeon[roman type] is a classic fantasy 'escape room' adventure heavily inspired by the lore and aesthetics of [italic type]Dungeons and Dragons[roman type], [italic type]Lord of the Rings[roman type], and especially [italic type]Dungeon Meshi[roman type].";
+	
+	[START PROLOGUE]
 	say "You trail absentmindedly behind your party. The packs of your companions sway back and forth in the torchlight ahead of you. You've been traveling down this narrow stone hallway for hours now. The most action you've seen today has been the choice between left and right when faced with a fork in these convoluted dungeon hallways. An unexciting day in the dungeon is a good one, for sure. And yet...";
 	pause the game;
 	say "You trail absentmindedly behind your party. The packs of your companions sway back and forth in the torchlight ahead of you. You've been traveling down this narrow stone hallway for hours now. The most action you've seen today has been the choice between left and right when faced with a fork in these convoluted dungeon hallways. An unexciting day in the dungeon is a good one, for sure. And yet....";

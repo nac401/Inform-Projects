@@ -10,7 +10,7 @@
             <author>Nico Ailani Carlson</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
-            <firstpublished>2024</firstpublished>
+            <firstpublished>2025</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
@@ -23,7 +23,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2024-10-31</releasedate>
+                    <releasedate>2025-08-18</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -33,10 +33,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2024-10-31</originated>
+            <originated>2025-08-18</originated>
         </colophon>
         <glulx>
-            <serial>241031</serial>
+            <serial>250818</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
             <coverpicture>1</coverpicture>

@@ -1,29 +1,29 @@
 ! Blurb file created by Inform Inform 10.1.2 (build )
 
-status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\Users\NicoA\Unity Projects\Inform-Projects\Train_Heist.inform\Build\StatusCblorb.html"
+status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\Users\NicoA\Unity Projects\Inform-Projects\the office.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\NicoA\Unity Projects\Inform-Projects\Train_Heist.inform"
-release to "C:\Users\NicoA\Unity Projects\Inform-Projects\Train_Heist.materials\Release"
+project folder "C:\Users\NicoA\Unity Projects\Inform-Projects\the office.inform"
+release to "C:\Users\NicoA\Unity Projects\Inform-Projects\the office.materials\Release"
 
 ! Blorb instructions
 
-storyfile leafname "Runaway Heist.gblorb"
-storyfile "C:\Users\NicoA\Unity Projects\Inform-Projects\Train_Heist.inform\Build\output.ulx" include
-ifiction "C:\Users\NicoA\Unity Projects\Inform-Projects\Train_Heist.inform\Metadata.iFiction" include
+storyfile leafname "the office.gblorb"
+storyfile "C:\Users\NicoA\Unity Projects\Inform-Projects\the office.inform\Build\output.ulx" include
+ifiction "C:\Users\NicoA\Unity Projects\Inform-Projects\the office.inform\Metadata.iFiction" include
 cover "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
 picture 1 "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
 
 ! Placeholder variables
 
-placeholder [IFID] = "60F78402-F380-4668-A6AB-7FA95E4D097F"
+placeholder [IFID] = "1574BDDB-F6B8-49BE-91AD-92D019907BC7"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2025"
-placeholder [TITLE] = "Runaway Heist"
-placeholder [AUTHOR] = "Chatworth_G_Petey"
-placeholder [BLURB] = "You've stolen a mystical artifact from a speeding train. Now the train is out of control-and if you can't stop it, you'll never escape with your prize."
+placeholder [TITLE] = "the office"
+placeholder [AUTHOR] = "nico ailani carlson"
+placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
 

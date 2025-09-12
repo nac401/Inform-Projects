@@ -47,14 +47,9 @@ The description of the bookshelf is "Roughly a dozen books are spaced out across
 [------ BOOKS]
 Some books are in the bookshelf. The indefinite article of the books is "a few".
 
-[--- THE PORTRAIT]
-[how will the player know that this object is examinable?]
-The portrait is scenery in the Investigator's Office. 
-The description is "You squint up at the portrait. Ah, it's you! Victor Sharpe. Private investigator and aspiring novelist. On display is your curled mustache; dark, sunken eyes; and deep crows feet from all of the squinting you do.".
-
 [THE HALLWAY]
 [notice this difference in syntax and what changes when we include the comment below]
-The Hallway [is a room that] is north of the Investigator's Office. "A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is the stairwell, enemy of your weak calves and smoke drenched lungs.".
+[The Hallway [is a room that] is north of the Investigator's Office. "A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is the stairwell, enemy of your weak calves and smoke drenched lungs.".]
 [the answer: that the connection between rooms does not go both ways!]
 
 [---]
@@ -64,10 +59,6 @@ The Elevator is east of the Hallway. "The elevator groans as you climb aboard. I
 
 [---]
 
-[THE STAIRS]
-The Stairs is north of the Hallway.
-The printed name of the Stairs is "Stairwell".
-
 [this overwrites the typical behavior that is triggered after going to a room]
 After going to the Stairs:
 	say "You enter into the stairwell. You take a deep, ragged breath. Your body has already begun to ache in anticipation of your going down the stairs.";
@@ -76,8 +67,18 @@ After going to the Stairs:
 [try swapping "continue the action" above with the "end the story...", notice what changes]
 [the answer: 'After going to' takes place before the room or description is printed.]
 
-[----------------------------------------------------------- LESSON 2 -----------------------------------------------------------]
-[
+[-------------------------- LESSON 2 --------------------------]
+
+[CONDITIONAL VOCABULARY]
+A thing can be examined or unexamined.
+A thing is usually unexamined.
+
+[carry out: think of it as a "during" insert of an action]
+Carry out examining:
+	now the noun is examined;
+[alongside 'carry out' we also have 'check' (before) and 'report' (after)]
+[try out check and report to see how they change the results]
+
 [------ THE WHISKEY, IN THE OFFICE]
 [instead: example #1, using it to define a "new action"]
 Instead of drinking the whiskey:
@@ -85,25 +86,13 @@ Instead of drinking the whiskey:
 		say "You gnaw for a few seconds, absentmindedly at the closed cap on the whiskey bottle. You may have missed a critical step here.";
 	else:
 		say "You drink the whiskey. And just as you drew it up, you drink the remaining whiskey (half of the bottle) in one swig.";
-
-[creating an examinable bit of scenery that points to another room]
-The elevator-exterior is scenery in the Hallway. The description is "The shoddy elevator to this decrepit building. It's doors are open, waiting for you to enter." Understand "elevator" as elevator-exterior.
-
-[instead: example #2, using it to facilitate player action]		
-Instead of entering the elevator-exterior:
-	try going east;
 	
 [THE HALLWAY, REVISED]
 The Hallway is north of the Investigator's Office. "A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.".
 	
 [THE STAIRS, REVISED]
 The Stairs is a room. The printed name of the Stairs is "Stairwell". 
-
-[------ OLD KEY]
-The old key is an undescribed thing. The old key is in the bookshelf.
-
-[------ BOOKS, REVISED]
-The description of books is "You absentmindedly caress the spines of the dusty books, as people do when they see books. You notice that between two of the worn motel bibles there is an old key. Huh. What's that doing there?";
+The description of the Stairs is "The stairwell is musty, hot, and humid. You already feel your asthma acting up."
 
 [--- LOCKED DOOR]
 The rickety door is north of the Hallway and south of the Stairs. The rickety door is a door. The rickety door is scenery. The rickety door is lockable and locked. The old key unlocks the rickety door.
@@ -121,6 +110,12 @@ Before going through the rickety door:
 			say "(first attempting to unlock the door, but you have nothing to unlock it with)";
 			say "[line break]The door is locked and you do not have the means to open it.";
 			stop the action;
+			
+[------ OLD KEY]
+The old key is an undescribed thing. The old key is in the bookshelf.
+
+[------ BOOKS, REVISED]
+The description of books is "You absentmindedly caress the spines of the dusty books, as people do when they see books. You notice that between two of the worn motel bibles there is an old key. Huh. What's that doing there?";
 
 
 [VARIABLES]
@@ -135,18 +130,10 @@ Every turn:
 	if Withdrawal_Amount is greater than 5:
 		end the story saying "Your head splits open. Your thirst for liquor dominating your senses. You cannot go on."
 [one of: a neat little tool for varied descriptions, there are plenty of different suffixes other than "at random" to experiment with]
-		
-[CONDITIONAL VOCABULARY]
-A thing can be examined or unexamined.
-A thing is usually unexamined.
 
-[carry out: think of it as a "during" insert of an action]
-Carry out examining:
-	now the noun is examined;
-[alongside 'carry out' we also have 'check' (before) and 'report' (after)]
-[try out check and report to see how they change the results]
-
-The description of the portrait is "[if examined] You look at the portrait again. You are oh so handsome. [else] You squint up at the portrait. Ah, it's you! Victor Sharpe. Private investigator and aspiring novelist. On display is your curled mustache; dark, sunken eyes; and deep crows feet from all of the squinting you do."
+[--- THE PORTRAIT]
+The portrait is scenery in the Investigator's Office. 
+The description of the portrait is "[if examined] You look at the portrait again. You are oh, so handsome. [else] You squint up at the portrait. Ah, it's you! Victor Sharpe. Private investigator and aspiring novelist. On display is your curled mustache; dark, sunken eyes; and deep crows feet from all of the squinting you do."
 
 [CARESSING]
 [caressing is an action taking 1 noun: I caress something]
@@ -166,4 +153,14 @@ Check caressing:
 	else:
 		say "Yuck. That's rough and gross.";
 		
-The whiskey is good-to-touch.]
+The whiskey is good-to-touch.
+
+[creating an examinable bit of scenery that points to another room]
+The elevator-exterior is scenery in the Hallway. The description is "The shoddy elevator to this decrepit building. It's doors are open, waiting for you to enter." Understand "elevator" as elevator-exterior.
+
+[instead: example #2, using it to facilitate player action]		
+Instead of entering the elevator-exterior:
+	try going east;
+	
+Instead of exiting in the Elevator:
+	try going west;

@@ -1,790 +1,924 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-335">
+<Skein rootNode="node-1">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-335">
+  <item nodeId="node-1">
     <command xml:space="preserve">The PI's Office</command>
-    <result xml:space="preserve">The PI&#x000A;An Interactive Fiction by nico ailani carlson&#x000A;Release 1 / Serial number 250901 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Interrogation Room&#x000A; Yes, this is actually an old storage closet in an abandoned warehouse but to you, it is an interrogation room. Sitting in front of you is Perry, your prime suspect in the case. Perry is "innocent", according to Perry. Sure, Perry. Isn't everyone?&#x000A;&#x000A;You can see Perry here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The PI&#x000A;An Interactive Fiction by nico ailani carlson&#x000A;Release 1 / Serial number 250910 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, and a desk that is littered with litter with a chair standing beside. On the desk is not two, not three, but one opened bottle of whiskey and a single apple. &#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-336"/>
-      <child nodeId="node-337"/>
-      <child nodeId="node-340"/>
-      <child nodeId="node-343"/>
-      <child nodeId="node-348"/>
-      <child nodeId="node-349"/>
-      <child nodeId="node-414"/>
-      <child nodeId="node-353"/>
-      <child nodeId="node-360"/>
-      <child nodeId="node-371"/>
-      <child nodeId="node-395"/>
-      <child nodeId="node-397"/>
-      <child nodeId="node-398"/>
-      <child nodeId="node-401"/>
-      <child nodeId="node-402"/>
-      <child nodeId="node-405"/>
-      <child nodeId="node-416"/>
-      <child nodeId="node-412"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-6"/>
+      <child nodeId="node-9"/>
+      <child nodeId="node-14"/>
+      <child nodeId="node-15"/>
+      <child nodeId="node-19"/>
+      <child nodeId="node-21"/>
+      <child nodeId="node-28"/>
+      <child nodeId="node-39"/>
+      <child nodeId="node-63"/>
+      <child nodeId="node-65"/>
+      <child nodeId="node-66"/>
+      <child nodeId="node-69"/>
+      <child nodeId="node-70"/>
+      <child nodeId="node-73"/>
+      <child nodeId="node-80"/>
+      <child nodeId="node-93"/>
     </children>
   </item>
-  <item nodeId="node-336">
+  <item nodeId="node-2">
     <command xml:space="preserve">caress desk</command>
     <result xml:space="preserve">Yuck. That's rough and gross.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-337">
+  <item nodeId="node-3">
     <command xml:space="preserve">caress whiskey</command>
     <result xml:space="preserve">Mmm... That feels nice.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-338"/>
+      <child nodeId="node-4"/>
     </children>
   </item>
-  <item nodeId="node-338">
+  <item nodeId="node-4">
     <command xml:space="preserve">caress whiskey</command>
     <result xml:space="preserve">Mmm... That feels nice.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-339"/>
+      <child nodeId="node-5"/>
     </children>
   </item>
-  <item nodeId="node-339">
+  <item nodeId="node-5">
     <command xml:space="preserve">caress desk</command>
     <result xml:space="preserve">Yuck. That's rough and gross.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-340">
+  <item nodeId="node-6">
     <command xml:space="preserve">drink whiskey</command>
     <result xml:space="preserve">You gnaw for a few seconds, absentmindedly at the closed cap on the whiskey bottle. You may have missed a critical step here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-341"/>
+      <child nodeId="node-7"/>
     </children>
   </item>
-  <item nodeId="node-341">
+  <item nodeId="node-7">
     <command xml:space="preserve">open whiskey</command>
     <result xml:space="preserve">You open the whiskey.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-342"/>
+      <child nodeId="node-8"/>
     </children>
   </item>
-  <item nodeId="node-342">
+  <item nodeId="node-8">
     <command xml:space="preserve">drink whiskey</command>
     <result xml:space="preserve">You drink the whiskey. And just as you drew it up, you drink the remaining whiskey (half of the bottle) in one swig.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-343">
+  <item nodeId="node-9">
     <command xml:space="preserve">examine bookshelf</command>
     <result xml:space="preserve">In the bookshelf are a few books.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-344"/>
+      <child nodeId="node-10"/>
     </children>
   </item>
-  <item nodeId="node-344">
+  <item nodeId="node-10">
     <command xml:space="preserve">examine books</command>
     <result xml:space="preserve">Roughly a dozen books are spaced out across the 5 shelves of the bookshelf. Upon closer inspection, one of them is a dictionary and three of them look to be motel bibles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-345"/>
+      <child nodeId="node-11"/>
     </children>
   </item>
-  <item nodeId="node-345">
+  <item nodeId="node-11">
     <command xml:space="preserve">close bookshelf</command>
     <result xml:space="preserve">It isn't something you can close.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-346"/>
+      <child nodeId="node-12"/>
     </children>
   </item>
-  <item nodeId="node-346">
+  <item nodeId="node-12">
     <command xml:space="preserve">open whiskey</command>
     <result xml:space="preserve">You open the whiskey.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-347"/>
+      <child nodeId="node-13"/>
     </children>
   </item>
-  <item nodeId="node-347">
+  <item nodeId="node-13">
     <command xml:space="preserve">drink whiskey</command>
     <result xml:space="preserve">There's nothing suitable to drink here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-348">
+  <item nodeId="node-14">
     <command xml:space="preserve">examine uisge</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-349">
+  <item nodeId="node-15">
     <command xml:space="preserve">examine whiskey</command>
     <result xml:space="preserve">Glimmering in the bottom of the bottle is about 12 ounces of whiskey. By your calculations, that's about one swig if you dream big enough.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-350"/>
-      <child nodeId="node-352"/>
+      <child nodeId="node-16"/>
+      <child nodeId="node-18"/>
     </children>
   </item>
-  <item nodeId="node-350">
+  <item nodeId="node-16">
     <command xml:space="preserve">examine uisge</command>
     <result xml:space="preserve">Glimmering in the bottom of the bottle is about 12 ounces of whiskey. By your calculations, that's about one swig if you dream big enough.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-351"/>
+      <child nodeId="node-17"/>
     </children>
   </item>
-  <item nodeId="node-351">
+  <item nodeId="node-17">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-352">
+  <item nodeId="node-18">
     <command xml:space="preserve">take whiskey</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-414">
+  <item nodeId="node-19">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Interrogation Room&#x000A; It's an old, musty room with a few broken brooms in the corner. The perfect interrogation room. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-415"/>
+      <child nodeId="node-20"/>
     </children>
   </item>
-  <item nodeId="node-415">
+  <item nodeId="node-20">
     <command xml:space="preserve">x room</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-353">
+  <item nodeId="node-21">
     <command xml:space="preserve">look around</command>
     <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-354"/>
-      <child nodeId="node-359"/>
+      <child nodeId="node-22"/>
+      <child nodeId="node-27"/>
     </children>
   </item>
-  <item nodeId="node-354">
+  <item nodeId="node-22">
     <command xml:space="preserve">enter chair</command>
     <result xml:space="preserve">You get onto the chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-355"/>
+      <child nodeId="node-23"/>
     </children>
   </item>
-  <item nodeId="node-355">
+  <item nodeId="node-23">
     <command xml:space="preserve">exit chair</command>
     <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-356"/>
+      <child nodeId="node-24"/>
     </children>
   </item>
-  <item nodeId="node-356">
+  <item nodeId="node-24">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">You get off the chair.&#x000A;&#x000A;Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-357"/>
+      <child nodeId="node-25"/>
     </children>
   </item>
-  <item nodeId="node-357">
+  <item nodeId="node-25">
     <command xml:space="preserve">sit on chair</command>
     <result xml:space="preserve">You get onto the chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-358"/>
+      <child nodeId="node-26"/>
     </children>
   </item>
-  <item nodeId="node-358">
+  <item nodeId="node-26">
     <command xml:space="preserve">stand up</command>
     <result xml:space="preserve">You get off the chair.&#x000A;&#x000A;Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-359">
+  <item nodeId="node-27">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-360">
+  <item nodeId="node-28">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;A fly buzzes around your face. You swat at it but you move too slowly.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-361"/>
-      <child nodeId="node-366"/>
-      <child nodeId="node-368"/>
+      <child nodeId="node-29"/>
+      <child nodeId="node-104"/>
+      <child nodeId="node-34"/>
+      <child nodeId="node-111"/>
+      <child nodeId="node-107"/>
+      <child nodeId="node-36"/>
     </children>
   </item>
-  <item nodeId="node-361">
+  <item nodeId="node-29">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Elevator&#x000A;The elevator groans as you climb aboard. It is just as out-of-order as it has been for the past three years that you've been leasing this office. Did I forget to mention that?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-362"/>
+      <child nodeId="node-30"/>
     </children>
   </item>
-  <item nodeId="node-362">
+  <item nodeId="node-30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-363"/>
+      <child nodeId="node-31"/>
     </children>
   </item>
-  <item nodeId="node-363">
+  <item nodeId="node-31">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first attempting to unlock the door, but you have nothing to unlock it with)&#x000A;The door is locked and you do not have the means to open it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-364"/>
+      <child nodeId="node-32"/>
     </children>
   </item>
-  <item nodeId="node-364">
+  <item nodeId="node-32">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, and a desk that is littered with litter with a chair standing beside. On the desk is not two, not three, but one opened bottle of whiskey and a single apple.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-365"/>
+      <child nodeId="node-33"/>
     </children>
   </item>
-  <item nodeId="node-365">
+  <item nodeId="node-33">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your head splits open. Your thirst for liquor dominating your senses. You cannot go on. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-366">
+  <item nodeId="node-104">
+    <command xml:space="preserve">enter elevator</command>
+    <result xml:space="preserve">Elevator&#x000A;The elevator groans as you climb aboard. It is just as out-of-order as it has been for the past three years that you've been leasing this office. Did I forget to mention that?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">exit elevator</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;A fly flies past your ear. You swat at it but it moves too fast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the rickety door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(first attempting to unlock the door, but you have nothing to unlock it with)&#x000A;The door is locked and you do not have the means to open it.&#x000A;&#x000A;A fly flies past your ear. You swat at it but it moves too fast.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-367"/>
+      <child nodeId="node-98"/>
+      <child nodeId="node-35"/>
     </children>
   </item>
-  <item nodeId="node-367">
+  <item nodeId="node-98">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first attempting to unlock the door, but you have nothing to unlock it with)&#x000A;The door is locked and you do not have the means to open it.&#x000A;&#x000A;A fly buzzes around your face. You swat at it but you move too slowly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, and a desk that is littered with litter with a chair standing beside. On the desk is not two, not three, but one opened bottle of whiskey and a single apple.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">x bookshelf</command>
+    <result xml:space="preserve">Roughly a dozen books are spaced out across the 5 shelves of the bookshelf. Upon closer inspection, one of them is a dictionary and three of them look to be motel bibles.&#x000A;&#x000A;In the bookshelf are a few books.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your head splits open. Your thirst for liquor dominating your senses. You cannot go on. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-35">
     <command xml:space="preserve">x rickety door</command>
     <result xml:space="preserve">The old steel door that leads to the stairwell.  It creaks and groans when you test the handle but is steadfastly locked. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-368">
+  <item nodeId="node-111">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">The old steel door that leads to the stairwell.  It creaks and groans when you test the handle but is steadfastly locked. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, and a desk that is littered with litter with a chair standing beside. On the desk is not two, not three, but one opened bottle of whiskey and a single apple.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">x elevator</command>
+    <result xml:space="preserve">The shoddy elevator to this decrepit building. It's doors are open, waiting for you to enter.&#x000A;&#x000A;A fly flies past your ear. You swat at it but it moves too fast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">enter elevator</command>
+    <result xml:space="preserve">Elevator&#x000A;The elevator groans as you climb aboard. It is just as out-of-order as it has been for the past three years that you've been leasing this office. Did I forget to mention that?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">exit elevator</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;A fly buzzes around your face. You swat at it but you move too slowly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-36">
     <command xml:space="preserve">x rickety door</command>
     <result xml:space="preserve">The old steel door that leads to the stairwell.  It creaks and groans when you test the handle but is steadfastly locked. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-369"/>
+      <child nodeId="node-37"/>
     </children>
   </item>
-  <item nodeId="node-369">
+  <item nodeId="node-37">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-370"/>
+      <child nodeId="node-38"/>
     </children>
   </item>
-  <item nodeId="node-370">
+  <item nodeId="node-38">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first attempting to unlock the door, but you have nothing to unlock it with)The door is locked and you do not have the means to open it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-371">
+  <item nodeId="node-39">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-372"/>
-      <child nodeId="node-382"/>
-      <child nodeId="node-385"/>
-      <child nodeId="node-387"/>
-      <child nodeId="node-393"/>
+      <child nodeId="node-40"/>
+      <child nodeId="node-50"/>
+      <child nodeId="node-53"/>
+      <child nodeId="node-55"/>
+      <child nodeId="node-61"/>
     </children>
   </item>
-  <item nodeId="node-372">
+  <item nodeId="node-40">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Elevator&#x000A;The elevator groans as you climb aboard. It is just as out-of-order as it has been for the past three years that you've been leasing this office. Did I forget to mention that?&#x000A;&#x000A;1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-373"/>
+      <child nodeId="node-41"/>
     </children>
   </item>
-  <item nodeId="node-373">
+  <item nodeId="node-41">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-374"/>
+      <child nodeId="node-42"/>
     </children>
   </item>
-  <item nodeId="node-374">
+  <item nodeId="node-42">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;3&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-375"/>
+      <child nodeId="node-43"/>
     </children>
   </item>
-  <item nodeId="node-375">
+  <item nodeId="node-43">
     <command xml:space="preserve">x portrait</command>
     <result xml:space="preserve">You squint up at the portrait. Ah, it's you! Victor Sharpe. Private investigator and aspiring novelist. On display is your curled mustache; dark, sunken eyes; and deep crows feet from all of the squinting you do.&#x000A;&#x000A;4&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-376"/>
+      <child nodeId="node-44"/>
     </children>
   </item>
-  <item nodeId="node-376">
+  <item nodeId="node-44">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;5&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-377"/>
+      <child nodeId="node-45"/>
     </children>
   </item>
-  <item nodeId="node-377">
+  <item nodeId="node-45">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;6&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-378"/>
+      <child nodeId="node-46"/>
     </children>
   </item>
-  <item nodeId="node-378">
+  <item nodeId="node-46">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;7&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-379"/>
+      <child nodeId="node-47"/>
     </children>
   </item>
-  <item nodeId="node-379">
+  <item nodeId="node-47">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;8&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-380"/>
+      <child nodeId="node-48"/>
     </children>
   </item>
-  <item nodeId="node-380">
+  <item nodeId="node-48">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;9&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-381"/>
+      <child nodeId="node-49"/>
     </children>
   </item>
-  <item nodeId="node-381">
+  <item nodeId="node-49">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;10&#x000A;&#x000A;&#x000A;    *** Your head splits open. Your thirst for liquor dominating your senses. You cannot go on. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-382">
+  <item nodeId="node-50">
     <command xml:space="preserve">enter stair</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-383"/>
+      <child nodeId="node-51"/>
     </children>
   </item>
-  <item nodeId="node-383">
+  <item nodeId="node-51">
     <command xml:space="preserve">enter stairs</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-384"/>
+      <child nodeId="node-52"/>
     </children>
   </item>
-  <item nodeId="node-384">
+  <item nodeId="node-52">
     <command xml:space="preserve">enter stairwell</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-385">
+  <item nodeId="node-53">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You enter into the stairwell. You take a deep, ragged breath. Your body has already begun to ache in anticipation of your going down the stairs.&#x000A;&#x000A;&#x000A;&#x000A;    *** You go down the stairs. On to another adventure. Another mystery. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-386"/>
+      <child nodeId="node-54"/>
     </children>
   </item>
-  <item nodeId="node-386">
+  <item nodeId="node-54">
     <command xml:space="preserve">enter stairs</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-387">
+  <item nodeId="node-55">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-388"/>
+      <child nodeId="node-56"/>
     </children>
   </item>
-  <item nodeId="node-388">
+  <item nodeId="node-56">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">Elevator&#x000A;The elevator groans as you climb aboard. It is just as out-of-order as it has been for the past three years that you've been leasing this office. Did I forget to mention that?&#x000A;&#x000A;2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-389"/>
+      <child nodeId="node-57"/>
     </children>
   </item>
-  <item nodeId="node-389">
+  <item nodeId="node-57">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;3&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-390"/>
+      <child nodeId="node-58"/>
     </children>
   </item>
-  <item nodeId="node-390">
+  <item nodeId="node-58">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;4&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-391"/>
+      <child nodeId="node-59"/>
     </children>
   </item>
-  <item nodeId="node-391">
+  <item nodeId="node-59">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;5&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-392"/>
+      <child nodeId="node-60"/>
     </children>
   </item>
-  <item nodeId="node-392">
+  <item nodeId="node-60">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;6&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-393">
+  <item nodeId="node-61">
     <command xml:space="preserve">x elevator</command>
     <result xml:space="preserve">The shoddy elevator to this decrepit building. It's doors are open, waiting for you to enter.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-394"/>
+      <child nodeId="node-62"/>
     </children>
   </item>
-  <item nodeId="node-394">
+  <item nodeId="node-62">
     <command xml:space="preserve">enter elevator</command>
     <result xml:space="preserve">Elevator&#x000A;The elevator groans as you climb aboard. It is just as out-of-order as it has been for the past three years that you've been leasing this office. Did I forget to mention that?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-395">
+  <item nodeId="node-63">
     <command xml:space="preserve">sit on chair</command>
     <result xml:space="preserve">You sit down with a great sigh. It reminds you of the way your father used to sit down in a way that makes you deeply uncomfortable.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-396"/>
+      <child nodeId="node-64"/>
     </children>
   </item>
-  <item nodeId="node-396">
+  <item nodeId="node-64">
     <command xml:space="preserve">stand up</command>
     <result xml:space="preserve">You get off the chair.&#x000A;&#x000A;Investigator's Office&#x000A;A picturesque PI's office. Venetian blinds, a dense cloud of cigar smoke settled at eye level, a desk that is littered with litter, a bookshelf that is caked in dust. On the desk is not two, not three, but one opened bottle of whiskey.  Oh! And there's a door to the north that leads to a hallway.&#x000A;&#x000A;On the desk are a bottle of whiskey (closed) and an apple.&#x000A;&#x000A;You can also see a chair and a bookshelf (in which are a few books) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-397">
+  <item nodeId="node-65">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">Hallway&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-398">
+  <item nodeId="node-66">
     <command xml:space="preserve">take apple</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-399"/>
+      <child nodeId="node-67"/>
     </children>
   </item>
-  <item nodeId="node-399">
+  <item nodeId="node-67">
     <command xml:space="preserve">examine apple</command>
     <result xml:space="preserve">An apple. It is a captivating shade of red. Like blood or lipstick or an apple.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-400"/>
+      <child nodeId="node-68"/>
     </children>
   </item>
-  <item nodeId="node-400">
+  <item nodeId="node-68">
     <command xml:space="preserve">eat apple</command>
     <result xml:space="preserve">You eat the apple. Not bad.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-401">
+  <item nodeId="node-69">
     <command xml:space="preserve">take bookshelf</command>
     <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-402">
+  <item nodeId="node-70">
     <command xml:space="preserve">take desk</command>
     <result xml:space="preserve">That's hardly portable.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-403"/>
+      <child nodeId="node-71"/>
     </children>
   </item>
-  <item nodeId="node-403">
+  <item nodeId="node-71">
     <command xml:space="preserve">take chair</command>
     <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-404"/>
+      <child nodeId="node-72"/>
     </children>
   </item>
-  <item nodeId="node-404">
+  <item nodeId="node-72">
     <command xml:space="preserve">take bookshelf</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-405">
+  <item nodeId="node-73">
     <command xml:space="preserve">x bookshelf</command>
     <result xml:space="preserve">Roughly a dozen books are spaced out across the 5 shelves of the bookshelf. Upon closer inspection, one of them is a dictionary and three of them look to be motel bibles.&#x000A;&#x000A;In the bookshelf are a few books.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-406"/>
+      <child nodeId="node-74"/>
     </children>
   </item>
-  <item nodeId="node-406">
+  <item nodeId="node-74">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve">You absentmindedly caress the spines of the dusty books, as people do when they see books. You notice that between two of the worn motel bibles there is an old key. Huh. What's that doing there?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-407"/>
-      <child nodeId="node-409"/>
+      <child nodeId="node-75"/>
+      <child nodeId="node-77"/>
     </children>
   </item>
-  <item nodeId="node-407">
+  <item nodeId="node-75">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-408"/>
+      <child nodeId="node-76"/>
+      <child nodeId="node-102"/>
     </children>
   </item>
-  <item nodeId="node-408">
+  <item nodeId="node-76">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  an old key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-409">
-    <command xml:space="preserve">take old key</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-410"/>
-    </children>
-  </item>
-  <item nodeId="node-410">
+  <item nodeId="node-102">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;A fly buzzes around your face. You swat at it but you move too slowly.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-411"/>
+      <child nodeId="node-103"/>
     </children>
   </item>
-  <item nodeId="node-411">
+  <item nodeId="node-103">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first unlocking the rickety door with the old key, then opening the door)&#x000A;You enter into the stairwell. You take a deep, ragged breath. Your body has already begun to ache in anticipation of your going down the stairs.&#x000A;&#x000A;&#x000A;&#x000A;    *** You go down the stairs. On to another adventure. Another mystery. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-416">
+  <item nodeId="node-77">
+    <command xml:space="preserve">take old key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Hallway&#x000A;A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first unlocking the rickety door with the old key, then opening the door)&#x000A;You enter into the stairwell. You take a deep, ragged breath. Your body has already begun to ache in anticipation of your going down the stairs.&#x000A;&#x000A;&#x000A;&#x000A;    *** You go down the stairs. On to another adventure. Another mystery. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-80">
     <command xml:space="preserve">x perry</command>
     <result xml:space="preserve">Perry stares up at you, a strange, peaceful look on his face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-425"/>
-      <child nodeId="node-417"/>
+      <child nodeId="node-81"/>
+      <child nodeId="node-85"/>
     </children>
   </item>
-  <item nodeId="node-425">
+  <item nodeId="node-81">
     <command xml:space="preserve">talk to perry</command>
     <result xml:space="preserve">"I don't know... It was just bad luck. I wasn't there for any particular reason!"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-426"/>
+      <child nodeId="node-82"/>
     </children>
   </item>
-  <item nodeId="node-426">
+  <item nodeId="node-82">
     <command xml:space="preserve">talk to perry</command>
     <result xml:space="preserve">"I'm sorry! I don't know anything! I swear!"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-427"/>
+      <child nodeId="node-83"/>
     </children>
   </item>
-  <item nodeId="node-427">
+  <item nodeId="node-83">
     <command xml:space="preserve">talk to perry</command>
     <result xml:space="preserve">"I'm sorry! I don't know anything! I swear!"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-428"/>
+      <child nodeId="node-84"/>
     </children>
   </item>
-  <item nodeId="node-428">
+  <item nodeId="node-84">
     <command xml:space="preserve">talk to perry</command>
     <result xml:space="preserve">"I don't know... It was just bad luck. I wasn't there for any particular reason!"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-417">
+  <item nodeId="node-85">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-418"/>
+      <child nodeId="node-86"/>
     </children>
   </item>
-  <item nodeId="node-418">
+  <item nodeId="node-86">
     <command xml:space="preserve">x perry</command>
     <result xml:space="preserve">Perry winces away from you, obviously frightened.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-419"/>
+      <child nodeId="node-87"/>
     </children>
   </item>
-  <item nodeId="node-419">
+  <item nodeId="node-87">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-420"/>
+      <child nodeId="node-88"/>
     </children>
   </item>
-  <item nodeId="node-420">
+  <item nodeId="node-88">
     <command xml:space="preserve">x perry</command>
     <result xml:space="preserve">Perry winces away from you, obviously frightened.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-421"/>
+      <child nodeId="node-89"/>
     </children>
   </item>
-  <item nodeId="node-421">
+  <item nodeId="node-89">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-422"/>
+      <child nodeId="node-90"/>
     </children>
   </item>
-  <item nodeId="node-422">
+  <item nodeId="node-90">
     <command xml:space="preserve">x perry</command>
     <result xml:space="preserve">Perry stares up at you defiantly, his jaw firmly set.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-423"/>
+      <child nodeId="node-91"/>
     </children>
   </item>
-  <item nodeId="node-423">
+  <item nodeId="node-91">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-424"/>
+      <child nodeId="node-92"/>
     </children>
   </item>
-  <item nodeId="node-424">
+  <item nodeId="node-92">
     <command xml:space="preserve">x perry</command>
     <result xml:space="preserve">Perry stares up at you, a strange, peaceful look on his face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-412">
+  <item nodeId="node-93">
     <command xml:space="preserve">x portrait</command>
     <result xml:space="preserve">You squint up at the portrait. Ah, it's you! Victor Sharpe. Private investigator and aspiring novelist. On display is your curled mustache; dark, sunken eyes; and deep crows feet from all of the squinting you do.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-413"/>
+      <child nodeId="node-94"/>
     </children>
   </item>
-  <item nodeId="node-413">
+  <item nodeId="node-94">
     <command xml:space="preserve">x portrait</command>
     <result xml:space="preserve">You look at the portrait again. You are oh so handsome. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>

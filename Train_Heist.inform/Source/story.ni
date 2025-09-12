@@ -43,7 +43,8 @@ The broken panel is an container in the Locomotive. "A maintenance panel hangs o
 [the "initial appearance" (with no preface) is text that appears in a separate paragraph. It will continue to show up until the object is "handled" (picked up by player)]
 
 [because of the nuance described above, can we guess when the description below is printed?]
-The piece of metal is in the broken panel. "A bent piece of metal is jammed in the gears." 
+The piece of metal is in the broken panel. 
+The description is "A bent piece of metal is jammed in the gears.".
 
 Instead of taking the piece of metal:
 	say "You yank the metal free—it screeches out of the gear teeth.";
@@ -58,7 +59,7 @@ Instead of pulling the brake lever when the brake lever is freed:
 
 [note here about turn count, decreasing a number that should be increasing, and so on]
 Every turn when the brake lever is jammed and the player is not in the Caboose:
-	decrease the turn count by 1;
+	say "You have [10 - turn count] turns remaining!";
 	if the turn count is 10:
 		end the story saying "The train derails in a blaze of steel and fire, taking you and the artifact with it.".
 

@@ -62,7 +62,7 @@ note_index is a number that varies.
 notes_master is a list of text that varies.
 
 [==================================ACTIONS====================================]
-Contemplating  is an action applying to one thing.
+Contemplating is an action applying to one thing.
 Understand "think [something]", "think about [something]", "think on [something]", "contemplate [something]", "wonder about [something]" as Contemplating.
 Check thinking:
 	say "Hmm...";

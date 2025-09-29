@@ -141,19 +141,22 @@ The description of the portrait is "[if examined] You look at the portrait again
 [intransitive: an action that doesn't have an object (e.g. waiting, sleeping, praying)]
 [2 nouns: an action that uses something on/in/to something else (e.g. putting something in something, using something on something, digging something with something]
 Caressing is an action applying to one thing. Understand "caress [something]" as caressing.
-A thing can be good-to-touch or rough-and-gross.
-A thing is usually rough-and-gross.
+
+Crying is an action applying to nothing. Understand "cry" as crying.
+
+Check crying:
+	say "You cry a lot";
+
+A thing can be untouched or touched.
+A thing is usually untouched.
+
+Before touching:
+	now the noun is touched;
+	say "You touched [noun]";
 
 [when breaking down an action, we refer to the [something] from before as "the noun"]
 [in the case of a 2 noun action, we refer to the first noun and second noun]
-Check caressing: 
-	if the noun is good-to-touch:
-		say "Mmm... That feels nice.";
-		decrease Withdrawal_Amount by 3;
-	else:
-		say "Yuck. That's rough and gross.";
-		
-The whiskey is good-to-touch.
+	
 
 [creating an examinable bit of scenery that points to another room]
 The elevator-exterior is scenery in the Hallway. The description is "The shoddy elevator to this decrepit building. It's doors are open, waiting for you to enter." Understand "elevator" as elevator-exterior.

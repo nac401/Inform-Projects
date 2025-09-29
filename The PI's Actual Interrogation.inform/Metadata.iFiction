@@ -2,24 +2,18 @@
 <ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
     <story>
         <identification>
-            <ifid>01C0B838-1394-41DE-B426-905E34F3762B</ifid>
+            <ifid>68CB3F3E-4F6E-46EF-8F22-B0264AB16865</ifid>
             <format>glulx</format>
         </identification>
         <bibliographic>
-            <title>CHARLIE</title>
-            <author>Nico Ailani Carlson</author>
+            <title>The PI's Actual Interrogation</title>
+            <author>nico ailani carlson</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
             <firstpublished>2025</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
-        <cover>
-            <format>png</format>
-            <height>500</height>
-            <width>630</width>
-            <description>The cover art.</description>
-        </cover>
         <releases>
             <attached>
                 <release>
@@ -39,7 +33,6 @@
             <serial>250929</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
-            <coverpicture>1</coverpicture>
         </glulx>
     </story>
 </ifindex>

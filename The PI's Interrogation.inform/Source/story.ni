@@ -22,7 +22,7 @@ Instead of talking to Perry:
 
 [THE TALK ACTION]
 Talking to is an action applying to one visible thing.
-Understand "talk to [someone]" as talking to. 
+Understand "talk to [someone]" as talking to.
 Check talking to:
 	say "[the noun] doesn't reply.".
 		

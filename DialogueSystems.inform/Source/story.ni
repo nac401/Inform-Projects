@@ -1,0 +1,54 @@
+"DialogueSystems" by nico ailani carlson
+
+Include Conversation Framework by Eric Eve.
+
+The Interrogation Room is a room. "[if visited] It's an old, musty room with a few broken brooms in the corner. The perfect interrogation room. Perry, your interrogatee, sits in front of you, looking scared. [else] Yes, this is actually an old storage closet in an abandoned warehouse but to you, it is an interrogation room. Sitting in front of you is Perry, your prime suspect in the case. Perry is 'innocent', according to Perry. Sure, Perry. Isn't everyone?"
+
+A person can be scared, angry, or neutral. 
+A person is usually neutral. 
+
+[PERRY]
+Perry is a man in the Interrogation room.
+The description of Perry is "[if neutral]Perry stares up at you, a strange, peaceful look on his face.[else if scared]Perry winces away from you, obviously frightened.[else if angry]Perry stares up at you defiantly, his jaw firmly set.".
+
+[GREETING PERRY]
+After saying hello to Perry:
+	if the greeting type is implicit:
+		say "You skip the pleasantries.";
+	else if the greeting type is explicit:
+		say "You nod to Perry, giving a grunt that somewhat resembles 'hello'.";
+		
+
+[--- SUBJECTS ---]
+The Crime Scene is a subject. Understand "murder site", "murder scene", "parking lot", "lot", "parking garage", "parking", "garage" as Crime Scene.
+
+After quizzing Perry about Crime Scene:
+	say "You ask Perry about the crime scene.[paragraph break]'What? Like what's going on ovver there? I know someone was killed there a few days ago.'".
+	
+[MURDER WEAPON]
+Murder Weapon is an unseen thing.
+Understand "knife", "dagger" as Murder Weapon.
+
+After quizzing Perry about Murder Weapon:
+	if the second noun is seen:
+		say "You ask Perry about the murder weapon, the beat up old knife that was found at the scene, covered in blood.[paragraph break]'Murder weapon? Knife? I swear to God, Man. I don't know what you're talking about. Are you some kind of cop? Don't I have rights?[paragraph break]Not as a criminal in the US of A, old boy. [italic type]And that's actually true. Modern slavery is a real thing-- right now, in the US prison industrial complex.[roman type]";
+	else:
+		say "You ask Perry about the murder weapon, though you have no idea what or where it is.[paragraph break]'Murder weapon? What are you talking about? What are you, some kind of cop? Don't I have rights?[paragraph break]Not as a criminal in the US of A, old boy. [italic type]And that's actually true. Modern slavery exists in the US prison industrial complex.[roman type]";
+		
+[EVIDENCE]
+The Evidence is a familiar unseen thing.
+
+After informing Perry about Evidence:
+	if the second noun is unseen:
+		say "You make up some hairbrained story about evidence... It's not very convincing.[paragraph break]'I don't know what to tell you, Man. I don't know what you're talking about! I wasn't there! I swear!'";
+	else:
+		say "You ask Perry about the footage that places him at the scene of the crime, only seconds after the murder is estimated to have taken place.[paragraph break]Perry looks up at you and grins maniacally, 'Oh, we've only just begun Inspector.'";
+		end the story saying "The lights cut out! There is a brief commotion and then when the lights flicker back on... you are alone.";
+		
+[RULE RESPONSES]
+The block asking rule response (A) is "You don't know about that, what's the point of asking?".
+
+The block quizzing rule response (A) is "You don't know about that, what's the point of asking?".
+
+
+

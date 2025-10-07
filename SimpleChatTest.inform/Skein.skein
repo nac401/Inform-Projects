@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-66">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-66">
+    <command xml:space="preserve">SimpleChatTest</command>
+    <result xml:space="preserve">Simplest Chat&#x000A;An Interactive Fiction by Mark Tilford&#x000A;Release 1 / Serial number 251007 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Living Room&#x000A;You can see Larry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">talk to larry</command>
+    <result xml:space="preserve">Larry looks up as you approach him.&#x000A;&#x000A;1) "How's tricks?" &#x000A;2) "Good bye." &#x000A;(or 0 to say nothing)&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">0</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">0</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">talk to larry</command>
+    <result xml:space="preserve">Larry looks up as you approach him.&#x000A;&#x000A;1) "How's tricks?" &#x000A;2) "Good bye." &#x000A;(or 0 to say nothing)&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"Just fine."&#x000A;&#x000A;1) "Well then, good bye." &#x000A;(or 0 to say nothing)&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"You too."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"Just fine."&#x000A;&#x000A;1) "Well then, good bye." &#x000A;2) "What about the monkey?"&#x000A;&#x000A;(or 0 to say nothing)&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"You too."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">"What about it?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

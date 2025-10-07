@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-78">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-78">
+    <command xml:space="preserve">The PI's Conversation</command>
+    <result xml:space="preserve">The PI's Conversation&#x000A;An Interactive Fiction by nico ailani carlson&#x000A;Release 1 / Serial number 251007 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Pub&#x000A;The pub is cramped but empty. You are the sole proprietor sitting at the bar though there are a few other patrons milling about in the booths.&#x000A;&#x000A;The barkeep polishes a stein and glowers.&#x000A;&#x000A;In the far corner of the pub is a figure in a trench coat. You think they might be eyeing you.&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+      <child nodeId="node-265"/>
+      <child nodeId="node-145"/>
+      <child nodeId="node-275"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Outside Pub&#x000A;The Follower arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+      <child nodeId="node-289"/>
+      <child nodeId="node-287"/>
+      <child nodeId="node-283"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">11th-5th&#x000A;The Follower arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">11th-5th&#x000A;The Follower arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-290"/>
+    </children>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;[Rule "parse command rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-291"/>
+    </children>
+  </item>
+  <item nodeId="node-291">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "generate action rule" applies.]&#x000A;[Rule "standard set going variables rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "basic visibility rule" applies.]&#x000A;[Rule "basic accessibility rule" applies.]&#x000A;[Rule "carrying requirements rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "requested actions require persuasion rule" applies.]&#x000A;[Rule "carry out requested actions rule" applies.]&#x000A;[Rule "descend to specific action-processing rule" applies.]&#x000A;[Rule "work out details of specific action rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't travel in what's not a vehicle rule" applies.]&#x000A;[Rule "can't go through undescribed doors rule" applies.]&#x000A;[Rule "can't go through closed doors rule" applies.]&#x000A;[Rule "determine map connection rule" applies.]&#x000A;[Rule "can't go that way rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "move player and vehicle rule" applies.]&#x000A;[Rule "move floating objects rule" applies.]&#x000A;[Rule "check light in new location rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "describe room gone into rule" applies.]&#x000A;&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "work out details of specific action rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;11th-Broadway&#x000A;[Rule "room description body text rule" applies.]&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;You can see a Stranger here.&#x000A;&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "scene change machinery rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "Every turn" applies.]&#x000A;[Rule "standard set going variables rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "basic visibility rule" applies.]&#x000A;[Rule "basic accessibility rule" applies.]&#x000A;[Rule "carrying requirements rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "requested actions require persuasion rule" applies.]&#x000A;[Rule "carry out requested actions rule" applies.]&#x000A;[Rule "descend to specific action-processing rule" applies.]&#x000A;[Rule "work out details of specific action rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "player aware of actions by visible actors rule" applies.]&#x000A;[Rule "player aware of actions on visible nouns rule" applies.]&#x000A;[Rule "player aware of actions on visible second nouns rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't travel in what's not a vehicle rule" applies.]&#x000A;[Rule "can't go through undescribed doors rule" applies.]&#x000A;[Rule "can't go through closed doors rule" applies.]&#x000A;[Rule "determine map connection rule" applies.]&#x000A;[Rule "can't go that way rule" applies.]&#x000A;[Rule "standard set going variables rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "basic visibility rule" applies.]&#x000A;[Rule "basic accessibility rule" applies.]&#x000A;[Rule "carrying requirements rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "requested actions require persuasion rule" applies.]&#x000A;[Rule "carry out requested actions rule" applies.]&#x000A;[Rule "descend to specific action-processing rule" applies.]&#x000A;[Rule "work out details of specific action rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "player aware of actions by visible actors rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't travel in what's not a vehicle rule" applies.]&#x000A;[Rule "can't go through undescribed doors rule" applies.]&#x000A;[Rule "can't go through closed doors rule" applies.]&#x000A;[Rule "determine map connection rule" applies.]&#x000A;[Rule "can't go that way rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "move player and vehicle rule" applies.]&#x000A;[Rule "move floating objects rule" applies.]&#x000A;[Rule "check light in new location rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "describe room gone into rule" applies.]&#x000A;The Stranger goes west.&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;&#x000A;[Rule "standard set going variables rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "basic visibility rule" applies.]&#x000A;[Rule "basic accessibility rule" applies.]&#x000A;[Rule "carrying requirements rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "requested actions require persuasion rule" applies.]&#x000A;[Rule "carry out requested actions rule" applies.]&#x000A;[Rule "descend to specific action-processing rule" applies.]&#x000A;[Rule "work out details of specific action rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "player aware of actions by visible actors rule" applies.]&#x000A;[Rule "player aware of actions on visible nouns rule" applies.]&#x000A;[Rule "player aware of actions on visible second nouns rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't travel in what's not a vehicle rule" applies.]&#x000A;[Rule "can't go through undescribed doors rule" applies.]&#x000A;[Rule "can't go through closed doors rule" applies.]&#x000A;[Rule "determine map connection rule" applies.]&#x000A;[Rule "can't go that way rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "move player and vehicle rule" applies.]&#x000A;[Rule "move floating objects rule" applies.]&#x000A;[Rule "check light in new location rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "player aware of actions by visible actors rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "describe room gone into rule" applies.]&#x000A;The Follower arrives from the west.&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;&#x000A;[Rule "timed events rule" applies.]&#x000A;[Rule "advance time rule" applies.]&#x000A;[Rule "update chronological records rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "scene change machinery rule" applies.]&#x000A;[Rule "adjust light rule" applies.]&#x000A;[Rule "note object acquisitions rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;[Rule "parse command rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-287">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Outside Pub&#x000A;You see a familiar figure in a trench coat... They might be following you.&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-288"/>
+    </children>
+  </item>
+  <item nodeId="node-288">
+    <command xml:space="preserve">responses all</command>
+    <result xml:space="preserve">Standard Rules:&#x000A;    adjust light rule response (A): "[It] [are] [if story tense is present tense]now [end if]pitch dark in&#x000A;[if story tense is present tense]here[else]there[end if]!"&#x000A;    generate action rule response (A): "(considering the first sixteen objects only)[command clarification break]"&#x000A;    generate action rule response (B): "Nothing to do!"&#x000A;    basic accessibility rule response (A): "You must name something more substantial."&#x000A;    basic visibility rule response (A): "[It] [are] pitch dark, and [we] [can't see] a thing."&#x000A;    requested actions require persuasion rule response (A): "[The noun] [have] better things to do."&#x000A;    carry out requested actions rule response (A): "[The noun] [are] unable to do that."&#x000A;    access through barriers rule response (A): "[regarding the noun][Those] [aren't] available."&#x000A;    can't reach inside closed containers rule response (A): "[The noun] [aren't] open."&#x000A;    can't reach inside rooms rule response (A): "[We] [can't] reach into [the noun]."&#x000A;    can't reach outside closed containers rule response (A): "[The noun] [aren't] open."&#x000A;    list writer internal rule response (A): " ("&#x000A;    list writer internal rule response (B): ")"&#x000A;    list writer internal rule response (C): " and "&#x000A;    list writer internal rule response (D): "providing light"&#x000A;    list writer internal rule response (E): "closed"&#x000A;    list writer internal rule response (F): "empty"&#x000A;    list writer internal rule response (G): "closed and empty"&#x000A;    list writer internal rule response (H): "closed and providing light"&#x000A;    list writer internal rule response (I): "empty and providing light"&#x000A;    list writer internal rule response (J): "closed, empty[if serial comma option is active],[end if] and providing light"&#x000A;    list writer internal rule response (K): "providing light and being worn"&#x000A;    list writer internal rule response (L): "being worn"&#x000A;    list writer internal rule response (M): "open"&#x000A;    list writer internal rule response (N): "open but empty"&#x000A;    list writer internal rule response (O): "closed"&#x000A;    list writer internal rule response (P): "closed and locked"&#x000A;    list writer internal rule response (Q): "containing"&#x000A;    list writer internal rule response (R): "on [if the noun is a person]whom[otherwise]which[end if] "&#x000A;    list writer internal rule response (S): ", on top of [if the noun is a person]whom[otherwise]which[end if] "&#x000A;    list writer internal rule response (T): "in [if the noun is a person]whom[otherwise]which[end if] "&#x000A;    list writer internal rule response (U): ", inside [if the noun is a person]whom[otherwise]which[end if] "&#x000A;    list writer internal rule response (V): "[regarding list writer internals][are]"&#x000A;    list writer internal rule response (W): "[regarding list writer internals][are] nothing"&#x000A;    list writer internal rule response (X): "Nothing"&#x000A;    list writer internal rule response (Y): "nothing"&#x000A;    action processing internal rule response (A): "[bracket]That command asks to do something outside of play, so it can&#x000A;only make sense from you to me. [The noun] cannot be asked to do this.[close&#x000A;bracket]"&#x000A;    action processing internal rule response (B): "You must name an object."&#x000A;    action processing internal rule response (C): "You may not name an object."&#x000A;    action processing internal rule response (D): "You must supply a noun."&#x000A;    action processing internal rule response (E): "You may not supply a noun."&#x000A;    action processing internal rule response (F): "You must name a second object."&#x000A;    action processing internal rule response (G): "You may not name a second object."&#x000A;    action processing internal rule response (H): "You must supply a second noun."&#x000A;    action processing internal rule response (I): "You may not supply a second noun."&#x000A;    action processing internal rule response (J): "(Since something dramatic has happened, your list of commands has been&#x000A;cut short.)"&#x000A;    action processing internal rule response (K): "I didn't understand that instruction."&#x000A;    parser error internal rule response (A): "I didn't understand that sentence."&#x000A;    parser error internal rule response (B): "I only understood you as far as wanting to "&#x000A;    parser error internal rule response (C): "I only understood you as far as wanting to (go) "&#x000A;    parser error internal rule response (D): "I didn't understand that number."&#x000A;    parser error internal rule response (E): "[We] [can't] see any such thing."&#x000A;    parser error internal rule response (F): "You seem to have said too little!"&#x000A;    parser error internal rule response (G): "[We] [aren't] holding that!"&#x000A;    parser error internal rule response (H): "You can't use multiple objects with that verb."&#x000A;    parser error internal rule response (I): "You can only use multiple objects once on a line."&#x000A;    parser error internal rule response (J): "I'm not sure what ['][pronoun i6 dictionary word]['] refers to."&#x000A;    parser error internal rule response (K): "[We] [can't] see ['][pronoun i6 dictionary word]['] ([the noun]) at the moment."&#x000A;    parser error internal rule response (L): "You excepted something not included anyway!"&#x000A;    parser error internal rule response (M): "You can only do that to something animate."&#x000A;    parser error internal rule response (N): "That's not a verb I [if American dialect option is&#x000A;active]recognize[otherwise]recognise[end if]."&#x000A;    parser error internal rule response (O): "That's not something you need to refer to in the course of this game."&#x000A;    parser error internal rule response (P): "I didn't understand the way that finished."&#x000A;    parser error internal rule response (Q): "[if number understood is 0]None[otherwise]Only [number understood in words][end if]&#x000A;of those [regarding the number understood][are] available."&#x000A;    parser error internal rule response (R): "That noun did not make sense in this context."&#x000A;    parser error internal rule response (S): "To repeat a command like 'frog, jump', just say 'again', not 'frog, again'."&#x000A;    parser error internal rule response (T): "You can't begin with a comma."&#x000A;    parser error internal rule response (U): "You seem to want to talk to someone, but I can't see whom."&#x000A;    parser error internal rule response (V): "You can't talk to [the noun]."&#x000A;    parser error internal rule response (W): "To talk to someone, try 'someone, hello' or some such."&#x000A;    parser error internal rule response (X): "I beg your pardon?"&#x000A;    parser nothing error internal rule response (A): "Nothing to do!"&#x000A;    parser nothing error internal rule response (B): "[There] [adapt the verb are from the third person plural] none at all available!"&#x000A;    parser nothing error internal rule response (C): "[regarding the noun][Those] [seem] to belong to [the noun]."&#x000A;    parser nothing error internal rule response (D): "[regarding the noun][Those] [can't] contain things."&#x000A;    parser nothing error internal rule response (E): "[The noun] [aren't] open."&#x000A;    parser nothing error internal rule response (F): "[The noun] [are] empty."&#x000A;    darkness name internal rule response (A): "Darkness"&#x000A;    parser command internal rule response (A): "Sorry, that can't be corrected."&#x000A;    parser command internal rule response (B): "Think nothing of it."&#x000A;    parser command internal rule response (C): "'Oops' can only correct a single word."&#x000A;    parser command internal rule response (D): "You can hardly repeat that."&#x000A;    parser clarification internal rule response (A): "Who do you mean, "&#x000A;    parser clarification internal rule response (B): "Which do you mean, "&#x000A;    parser clarification internal rule response (C): "Sorry, you can only have one item here. Which exactly?"&#x000A;    parser clarification internal rule response (D): "Whom do you want [if the noun is not the player][the noun] [end if]to&#x000A;[parser command so far]?"&#x000A;    parser clarification internal rule response (E): "What do you want [if the noun is not the player][the noun] [end if]to&#x000A;[parser command so far]?"&#x000A;    parser clarification internal rule response (F): "those things"&#x000A;    parser clarification internal rule response (G): "that"&#x000A;    parser clarification internal rule response (H): " or "&#x000A;    yes or no question internal rule response (A): "Please answer yes or no."&#x000A;    print protagonist internal rule response (A): "[We]"&#x000A;    print protagonist internal rule response (B): "[ourselves]"&#x000A;    print protagonist internal rule response (C): "[our] former self"&#x000A;    standard implicit taking rule response (A): "(first taking [the noun])[command clarification break]"&#x000A;    standard implicit taking rule response (B): "([the second noun] first taking [the noun])[command clarification break]"&#x000A;    print obituary headline rule response (A): " You have died "&#x000A;    print obituary headline rule response (B): " You have won "&#x000A;    print obituary headline rule response (C): " The End "&#x000A;    immediately undo rule response (A): "The use of 'undo' is forbidden in this story."&#x000A;    immediately undo rule response (B): "You can't 'undo' what hasn't been done!"&#x000A;    immediately undo rule response (C): "Your interpreter does not provide 'undo'. Sorry!"&#x000A;    immediately undo rule response (D): "'Undo' failed. Sorry!"&#x000A;    immediately undo rule response (E): "[bracket]Previous turn undone.[close bracket]"&#x000A;    immediately undo rule response (F): "'Undo' capacity exhausted. Sorry!"&#x000A;    quit the game rule response (A): "Are you sure you want to quit? "&#x000A;    save the game rule response (A): "Save failed."&#x000A;    save the game rule response (B): "Ok."&#x000A;    restore the game rule response (A): "Restore failed."&#x000A;    restore the game rule response (B): "Ok."&#x000A;    restart the game rule response (A): "Are you sure you want to restart? "&#x000A;    restart the game rule response (B): "Failed."&#x000A;    verify the story file rule response (A): "The game file has verified as intact."&#x000A;    verify the story file rule response (B): "The game file did not verify as intact, and may be corrupt."&#x000A;    switch the story transcript on rule response (A): "Transcripting is already on."&#x000A;    switch the story transcript on rule response (B): "Start of a transcript of:"&#x000A;    switch the story transcript on rule response (C): "Attempt to begin transcript failed."&#x000A;    switch the story transcript off rule response (A): "Transcripting is already off."&#x000A;    switch the story transcript off rule response (B): "[line break]End of transcript."&#x000A;    switch the story transcript off rule response (C): "Attempt to end transcript failed."&#x000A;    announce the score rule response (A): "[if the story has ended]In that game you scored[otherwise]You have so far scored[end if]&#x000A;[score] out of a possible [maximum score], in [turn count] turn[s]"&#x000A;    announce the score rule response (B): ", earning you the rank of "&#x000A;    announce the score rule response (C): "[There] [are] no score in this story."&#x000A;    announce the score rule response (D): "[bracket]Your score has just gone up by [number understood in words]&#x000A;point[s].[close bracket]"&#x000A;    announce the score rule response (E): "[bracket]Your score has just gone down by [number understood in words]&#x000A;point[s].[close bracket]"&#x000A;    standard report preferring abbreviated room descriptions rule response (A): " is now in its 'superbrief' mode, which always gives short descriptions&#x000A;of locations (even if you haven't been there before)."&#x000A;    standard report preferring unabbreviated room descriptions rule response (A): " is now in its 'verbose' mode, which always gives long descriptions of&#x000A;locations (even if you've been there before)."&#x000A;    standard report preferring sometimes abbreviated room descriptions rule response (A): " is now in its 'brief' printing mode, which gives long descriptions&#x000A;of places never before visited and short descriptions otherwise."&#x000A;    standard report switching score notification on rule response (A): "Score notification on."&#x000A;    standard report switching score notification off rule response (A): "Score notification off."&#x000A;    announce the pronoun meanings rule response (A): "At the moment, "&#x000A;    announce the pronoun meanings rule response (B): "means "&#x000A;    announce the pronoun meanings rule response (C): "is unset"&#x000A;    announce the pronoun meanings rule response (D): "no pronouns are known to the game."&#x000A;    announce items from multiple object lists rule response (A): "[current item from the multiple object list]: [run paragraph on]"&#x000A;    block vaguely going rule response (A): "You'll have to say which compass direction to go in."&#x000A;    print the final prompt rule response (A): "&gt; [run paragraph on]"&#x000A;    print the final question rule response (A): "Would you like to "&#x000A;    print the final question rule response (B): " or "&#x000A;    standard respond to final question rule response (A): "Please give one of the answers above."&#x000A;    you-can-also-see rule response (A): "[We] "&#x000A;    you-can-also-see rule response (B): "On [the domain] [we] "&#x000A;    you-can-also-see rule response (C): "In [the domain] [we] "&#x000A;    you-can-also-see rule response (D): "[regarding the player][can] also see "&#x000A;    you-can-also-see rule response (E): "[regarding the player][can] see "&#x000A;    you-can-also-see rule response (F): " here"&#x000A;    use initial appearance in room descriptions rule response (A): "On [the item] "&#x000A;    describe what's on scenery supporters in room descriptions rule response (A): "On [the item] "&#x000A;    describe what's on mentioned supporters in room descriptions rule response (A): "On [the item] "&#x000A;    print empty inventory rule response (A): "[We] [are] carrying nothing."&#x000A;    print standard inventory rule response (A): "[We] [are] carrying:[line break]"&#x000A;    report other people taking inventory rule response (A): "[The actor] [look] through [their] possessions."&#x000A;    can't take yourself rule response (A): "[We] [are] always self-possessed."&#x000A;    can't take other people rule response (A): "I don't suppose [the noun] [would care] for that."&#x000A;    can't take component parts rule response (A): "[regarding the noun][Those] [seem] to be a part of [the whole]."&#x000A;    can't take people's possessions rule response (A): "[regarding the noun][Those] [seem] to belong to [the owner]."&#x000A;    can't take items out of play rule response (A): "[regarding the noun][Those] [aren't] available."&#x000A;    can't take what you're inside rule response (A): "[We] [would have] to get&#x000A;[if noun is a supporter]off[otherwise]out of[end if] [the noun] first."&#x000A;    can't take what's already taken rule response (A): "[We] already [have] [regarding the noun][those]."&#x000A;    can't take scenery rule response (A): "[regarding the noun][They're] hardly portable."&#x000A;    can only take things rule response (A): "[We] [cannot] carry [the noun]."&#x000A;    can't take what's fixed in place rule response (A): "[regarding the noun][They're] fixed in place."&#x000A;    use player's holdall to avoid exceeding carrying capacity rule response (A): "(putting [the transferred item] into [the current working sack]&#x000A;to make room)[command clarification break]"&#x000A;    can't exceed carrying capacity rule response (A): "[We]['re] carrying too many things already."&#x000A;    standard report taking rule response (A): "Taken."&#x000A;    standard report taking rule response (B): "[The actor] [pick] up [the noun]."&#x000A;    can't remove what's not inside rule response (A): "But [regarding the noun][they] [aren't] there now."&#x000A;    can't remove from people rule response (A): "[regarding the noun][Those] [seem] to belong to [the owner]."&#x000A;    can't drop yourself rule response (A): "[We] [lack] the dexterity."&#x000A;    can't drop body parts rule response (A): "[We] [can't drop] part of [ourselves]."&#x000A;    can't drop what's already dropped rule response (A): "[The noun] [are] already here."&#x000A;    can't drop what's not held rule response (A): "[We] [haven't] got [regarding the noun][those]."&#x000A;    can't drop clothes being worn rule response (A): "(first taking [the noun] off)[command clarification break]"&#x000A;    can't drop if this exceeds carrying capacity rule response (A): "[There] [are] no more room on [the receptacle]."&#x000A;    can't drop if this exceeds carrying capacity rule response (B): "[There] [are] no more room in [the receptacle]."&#x000A;    standard report dropping rule response (A): "Dropped."&#x000A;    standard report dropping rule response (B): "[The actor] [put] down [the noun]."&#x000A;    can't put something on itself rule response (A): "[We] [can't put] something on top of itself."&#x000A;    can't put onto what's not a supporter rule response (A): "Putting things on [the second noun] [would achieve] nothing."&#x000A;    can't put clothes being worn rule response (A): "(first taking [regarding the noun][them] off)[command clarification break]"&#x000A;    can't put if this exceeds carrying capacity rule response (A): "[There] [are] no more room on [the second noun]."&#x000A;    concise report putting rule response (A): "Done."&#x000A;    standard report putting rule response (A): "[The actor] [put] [the noun] on [the second noun]."&#x000A;    can't insert what's already inserted rule response (A): "[The noun] [are] already there."&#x000A;    can't insert something into itself rule response (A): "[We] [can't put] something inside itself."&#x000A;    can't insert into closed containers rule response (A): "[The second noun] [are] closed."&#x000A;    can't insert into what's not a container rule response (A): "[regarding the second noun][Those] [can't contain] things."&#x000A;    can't insert clothes being worn rule response (A): "(first taking [regarding the noun][them] off)[command clarification break]"&#x000A;    can't insert if this exceeds carrying capacity rule response (A): "[There] [are] no more room in [the second noun]."&#x000A;    concise report inserting rule response (A): "Done."&#x000A;    standard report inserting rule response (A): "[The actor] [put] [the noun] into [the second noun]."&#x000A;    can't eat unless edible rule response (A): "[regarding the noun][They're] plainly inedible."&#x000A;    can't eat clothing without removing it first rule response (A): "(first taking [the noun] off)[command clarification break]"&#x000A;    can't eat other people's food rule response (A): "[The owner] [might not appreciate] that."&#x000A;    standard report eating rule response (A): "[We] [eat] [the noun]. Not bad."&#x000A;    standard report eating rule response (B): "[The actor] [eat] [the noun]."&#x000A;    stand up before going rule response (A): "(first getting off [the chaise])[command clarification break]"&#x000A;    can't travel in what's not a vehicle rule response (A): "[We] [would have] to get off [the nonvehicle] first."&#x000A;    can't travel in what's not a vehicle rule response (B): "[We] [would have] to get out of [the nonvehicle] first."&#x000A;    can't go through undescribed doors rule response (A): "[We] [can't go] that way."&#x000A;    can't go through closed doors rule response (A): "(first opening [the door gone through])[command clarification break]"&#x000A;    can't go that way rule response (A): "[We] [can't go] that way."&#x000A;    can't go that way rule response (B): "[We] [can't], since [the door gone through] [lead] nowhere."&#x000A;    describe room gone into rule response (A): "[The actor] [go] up"&#x000A;    describe room gone into rule response (B): "[The actor] [go] down"&#x000A;    describe room gone into rule response (C): "[The actor] [go] [noun]"&#x000A;    describe room gone into rule response (D): "[The actor] [arrive] from above"&#x000A;    describe room gone into rule response (E): "[The actor] [arrive] from below"&#x000A;    describe room gone into rule response (F): "[The actor] [arrive] from [the back way]"&#x000A;    describe room gone into rule response (G): "[The actor] [arrive]"&#x000A;    describe room gone into rule response (H): "[The actor] [arrive] at [the room gone to] from above"&#x000A;    describe room gone into rule response (I): "[The actor] [arrive] at [the room gone to] from below"&#x000A;    describe room gone into rule response (J): "[The actor] [arrive] at [the room gone to] from [the back way]"&#x000A;    describe room gone into rule response (K): "[The actor] [go] through [the noun]"&#x000A;    describe room gone into rule response (L): "[The actor] [arrive] from [the noun]"&#x000A;    describe room gone into rule response (M): "on [the vehicle gone by]"&#x000A;    describe room gone into rule response (N): "in [the vehicle gone by]"&#x000A;    describe room gone into rule response (O): ", pushing [the thing gone with] in front, and [us] along too"&#x000A;    describe room gone into rule response (P): ", pushing [the thing gone with] in front"&#x000A;    describe room gone into rule response (Q): ", pushing [the thing gone with] away"&#x000A;    describe room gone into rule response (R): ", pushing [the thing gone with] in"&#x000A;    describe room gone into rule response (S): ", taking [us] along"&#x000A;    can't enter what's already entered rule response (A): "But [we]['re] already on [the noun]."&#x000A;    can't enter what's already entered rule response (B): "But [we]['re] already in [the noun]."&#x000A;    can't enter what's not enterable rule response (A): "[regarding the noun][They're] not something [we] [can] stand on."&#x000A;    can't enter what's not enterable rule response (B): "[regarding the noun][They're] not something [we] [can] sit down on."&#x000A;    can't enter what's not enterable rule response (C): "[regarding the noun][They're] not something [we] [can] lie down on."&#x000A;    can't enter what's not enterable rule response (D): "[regarding the noun][They're] not something [we] [can] enter."&#x000A;    can't enter closed containers rule response (A): "[We] [can't get] into the closed [noun]."&#x000A;    can't enter if this exceeds carrying capacity rule response (A): "[There] [are] no more room on [the noun]."&#x000A;    can't enter if this exceeds carrying capacity rule response (B): "[There] [are] no more room in [the noun]."&#x000A;    can't enter something carried rule response (A): "[We] [can] only get into something free-standing."&#x000A;    implicitly pass through other barriers rule response (A): "(getting off [the current home])[command clarification break]"&#x000A;    implicitly pass through other barriers rule response (B): "(getting out of [the current home])[command clarification break]"&#x000A;    implicitly pass through other barriers rule response (C): "(getting onto [the target])[command clarification break]"&#x000A;    implicitly pass through other barriers rule response (D): "(getting into [the target])[command clarification break]"&#x000A;    implicitly pass through other barriers rule response (E): "(entering [the target])[command clarification break]"&#x000A;    standard report entering rule response (A): "[We] [get] onto [the noun]."&#x000A;    standard report entering rule response (B): "[We] [get] into [the noun]."&#x000A;    standard report entering rule response (C): "[The actor] [get] into [the noun]."&#x000A;    standard report entering rule response (D): "[The actor] [get] onto [the noun]."&#x000A;    can't exit when not inside anything rule response (A): "But [we] [aren't] in anything at the [if story tense is present&#x000A;tense]moment[otherwise]time[end if]."&#x000A;    can't exit closed containers rule response (A): "You can't get out of the closed [cage]."&#x000A;    standard report exiting rule response (A): "[We] [get] off [the container exited from]."&#x000A;    standard report exiting rule response (B): "[We] [get] out of [the container exited from]."&#x000A;    standard report exiting rule response (C): "[The actor] [get] out of [the container exited from]."&#x000A;    can't get off things rule response (A): "But [we] [aren't] on [the noun] at the [if story tense is present&#x000A;tense]moment[otherwise]time[end if]."&#x000A;    standard report getting off rule response (A): "[The actor] [get] off [the noun]."&#x000A;    room description heading rule response (A): "Darkness"&#x000A;    room description heading rule response (B): " (on [the intermediate level])"&#x000A;    room description heading rule response (C): " (in [the intermediate level])"&#x000A;    room description body text rule response (A): "[It] [are] pitch dark, and [we] [can't see] a thing."&#x000A;    other people looking rule response (A): "[The actor] [look] around."&#x000A;    examine directions rule response (A): "[We] [see] nothing unexpected in that direction."&#x000A;    examine containers rule response (A): "In [the noun] "&#x000A;    examine containers rule response (B): "[The noun] [are] empty."&#x000A;    examine supporters rule response (A): "On [the noun] "&#x000A;    examine devices rule response (A): "[The noun] [are] [if story tense is present tense]currently [end if]switched&#x000A;[if the noun is switched on]on[otherwise]off[end if]."&#x000A;    examine undescribed things rule response (A): "[We] [see] nothing special about [the noun]."&#x000A;    report other people examining rule response (A): "[The actor] [look] closely at [the noun]."&#x000A;    standard looking under rule response (A): "[We] [find] nothing of interest."&#x000A;    report other people looking under rule response (A): "[The actor] [look] under [the noun]."&#x000A;    can't search unless container or supporter rule response (A): "[We] [find] nothing of interest."&#x000A;    can't search closed opaque containers rule response (A): "[We] [can't see] inside, since [the noun] [are] closed."&#x000A;    standard search containers rule response (A): "In [the noun] "&#x000A;    standard search containers rule response (B): "[The noun] [are] empty."&#x000A;    standard search supporters rule response (A): "On [the noun] "&#x000A;    standard search supporters rule response (B): "[There] [are] nothing on [the noun]."&#x000A;    report other people searching rule response (A): "[The actor] [search] [the noun]."&#x000A;    block consulting rule response (A): "[We] [discover] nothing of interest in [the noun]."&#x000A;    block consulting rule response (B): "[The actor] [look] at [the noun]."&#x000A;    can't lock without a lock rule response (A): "[regarding the noun][Those] [don't] seem to be something [we] [can] lock."&#x000A;    can't lock what's already locked rule response (A): "[regarding the noun][They're] locked at the [if story tense is present&#x000A;tense]moment[otherwise]time[end if]."&#x000A;    can't lock what's open rule response (A): "First [we] [would have] to close [the noun]."&#x000A;    can't lock without the correct key rule response (A): "[regarding the second noun][Those] [don't] seem to fit the lock."&#x000A;    standard report locking rule response (A): "[We] [lock] [the noun]."&#x000A;    standard report locking rule response (B): "[The actor] [lock] [the noun]."&#x000A;    can't unlock without a lock rule response (A): "[regarding the noun][Those] [don't] seem to be something [we] [can] unlock."&#x000A;    can't unlock what's already unlocked rule response (A): "[regarding the noun][They're] unlocked at the [if story tense is present&#x000A;tense]moment[otherwise]time[end if]."&#x000A;    can't unlock without the correct key rule response (A): "[regarding the second noun][Those] [don't] seem to fit the lock."&#x000A;    standard report unlocking rule response (A): "[We] [unlock] [the noun]."&#x000A;    standard report unlocking rule response (B): "[The actor] [unlock] [the noun]."&#x000A;    can't switch on unless switchable rule response (A): "[regarding the noun][They] [aren't] something [we] [can] switch."&#x000A;    can't switch on what's already on rule response (A): "[regarding the noun][They're] already on."&#x000A;    standard report switching on rule response (A): "[The actor] [switch] [the noun] on."&#x000A;    can't switch off unless switchable rule response (A): "[regarding the noun][They] [aren't] something [we] [can] switch."&#x000A;    can't switch off what's already off rule response (A): "[regarding the noun][They're] already off."&#x000A;    standard report switching off rule response (A): "[The actor] [switch] [the noun] off."&#x000A;    can't open unless openable rule response (A): "[regarding the noun][They] [aren't] something [we] [can] open."&#x000A;    can't open what's locked rule response (A): "[regarding the noun][They] [seem] to be locked."&#x000A;    can't open what's already open rule response (A): "[regarding the noun][They're] already open."&#x000A;    reveal any newly visible interior rule response (A): "[We] [open] [the noun], revealing "&#x000A;    standard report opening rule response (A): "[We] [open] [the noun]."&#x000A;    standard report opening rule response (B): "[The actor] [open] [the noun]."&#x000A;    standard report opening rule response (C): "[The noun] [open]."&#x000A;    can't close unless openable rule response (A): "[regarding the noun][They] [aren't] something [we] [can] close."&#x000A;    can't close what's already closed rule response (A): "[regarding the noun][They're] already closed."&#x000A;    standard report closing rule response (A): "[We] [close] [the noun]."&#x000A;    standard report closing rule response (B): "[The actor] [close] [the noun]."&#x000A;    standard report closing rule response (C): "[The noun] [close]."&#x000A;    can't wear what's not clothing rule response (A): "[We] [can't wear] [regarding the noun][those]!"&#x000A;    can't wear what's not held rule response (A): "[We] [aren't] holding [regarding the noun][those]!"&#x000A;    can't wear what's already worn rule response (A): "[We]['re] already wearing [regarding the noun][those]!"&#x000A;    standard report wearing rule response (A): "[We] [put] on [the noun]."&#x000A;    standard report wearing rule response (B): "[The actor] [put] on [the noun]."&#x000A;    can't take off what's not worn rule response (A): "[We] [aren't] wearing [the noun]."&#x000A;    can't exceed carrying capacity when taking off rule response (A): "[We]['re] carrying too many things already."&#x000A;    standard report taking off rule response (A): "[We] [take] off [the noun]."&#x000A;    standard report taking off rule response (B): "[The actor] [take] off [the noun]."&#x000A;    can't give what you haven't got rule response (A): "[We] [aren't] holding [the noun]."&#x000A;    can't give to yourself rule response (A): "[We] [can't give] [the noun] to [ourselves]."&#x000A;    can't give to a non-person rule response (A): "[The second noun] [aren't] able to receive things."&#x000A;    can't give clothes being worn rule response (A): "(first taking [the noun] off)[command clarification break]"&#x000A;    block giving rule response (A): "[The second noun] [don't] seem interested."&#x000A;    can't exceed carrying capacity when giving rule response (A): "[The second noun] [are] carrying too many things already."&#x000A;    standard report giving rule response (A): "[We] [give] [the noun] to [the second noun]."&#x000A;    standard report giving rule response (B): "[The actor] [give] [the noun] to [us]."&#x000A;    standard report giving rule response (C): "[The actor] [give] [the noun] to [the second noun]."&#x000A;    can't show what you haven't got rule response (A): "[We] [aren't] holding [the noun]."&#x000A;    block showing rule response (A): "[The second noun] [are] unimpressed."&#x000A;    block waking rule response (A): "That [seem] unnecessary."&#x000A;    implicitly remove thrown clothing rule response (A): "(first taking [the noun] off)[command clarification break]"&#x000A;    futile to throw things at inanimate objects rule response (A): "Futile."&#x000A;    block throwing at rule response (A): "[We] [lack] the nerve when it [if story tense is the past&#x000A;tense]came[otherwise]comes[end if] to the crucial moment."&#x000A;    block attacking rule response (A): "Violence [aren't] the answer to this one."&#x000A;    kissing yourself rule response (A): "[We] [don't] get much from that."&#x000A;    block kissing rule response (A): "[The noun] [might not] like that."&#x000A;    block answering rule response (A): "[There] [are] no reply."&#x000A;    telling yourself rule response (A): "[We] [talk] to [ourselves] a while."&#x000A;    block telling rule response (A): "This [provoke] no reaction."&#x000A;    block asking rule response (A): "[There] [are] no reply."&#x000A;    standard report waiting rule response (A): "Time [pass]."&#x000A;    standard report waiting rule response (B): "[The actor] [wait]."&#x000A;    report touching yourself rule response (A): "[We] [achieve] nothing by this."&#x000A;    report touching yourself rule response (B): "[The actor] [touch] [themselves]."&#x000A;    report touching other people rule response (A): "[The noun] [might not like] that."&#x000A;    report touching other people rule response (B): "[The actor] [touch] [us]."&#x000A;    report touching other people rule response (C): "[The actor] [touch] [the noun]."&#x000A;    report touching things rule response (A): "[We] [feel] nothing unexpected."&#x000A;    report touching things rule response (B): "[The actor] [touch] [the noun]."&#x000A;    can't wave what's not held rule response (A): "But [we] [aren't] holding [regarding the noun][those]."&#x000A;    report waving things rule response (A): "[We] [wave] [the noun]."&#x000A;    report waving things rule response (B): "[The actor] [wave] [the noun]."&#x000A;    can't pull what's fixed in place rule response (A): "[regarding the noun][They] [are] fixed in place."&#x000A;    can't pull scenery rule response (A): "[We] [are] unable to."&#x000A;    can't pull people rule response (A): "[The noun] [might not like] that."&#x000A;    report pulling rule response (A): "Nothing obvious [happen]."&#x000A;    report pulling rule response (B): "[The actor] [pull] [the noun]."&#x000A;    can't push what's fixed in place rule response (A): "[regarding the noun][They] [are] fixed in place."&#x000A;    can't push scenery rule response (A): "[We] [are] unable to."&#x000A;    can't push people rule response (A): "[The noun] [might not like] that."&#x000A;    report pushing rule response (A): "Nothing obvious [happen]."&#x000A;    report pushing rule response (B): "[The actor] [push] [the noun]."&#x000A;    can't turn what's fixed in place rule response (A): "[regarding the noun][They] [are] fixed in place."&#x000A;    can't turn scenery rule response (A): "[We] [are] unable to."&#x000A;    can't turn people rule response (A): "[The noun] [might not like] that."&#x000A;    report turning rule response (A): "Nothing obvious [happen]."&#x000A;    report turning rule response (B): "[The actor] [turn] [the noun]."&#x000A;    can't push unpushable things rule response (A): "[The noun] [cannot] be pushed from place to place."&#x000A;    can't push to non-directions rule response (A): "[regarding the noun][They] [aren't] a direction."&#x000A;    can't push vertically rule response (A): "[The noun] [cannot] be pushed up or down."&#x000A;    can't push from within rule response (A): "[The noun] [cannot] be pushed from here."&#x000A;    block pushing in directions rule response (A): "[The noun] [cannot] be pushed from place to place."&#x000A;    innuendo about squeezing people rule response (A): "[The noun] [might not like] that."&#x000A;    report squeezing rule response (A): "[We] [achieve] nothing by this."&#x000A;    report squeezing rule response (B): "[The actor] [squeeze] [the noun]."&#x000A;    block saying yes rule response (A): "That was a rhetorical question."&#x000A;    block saying no rule response (A): "That was a rhetorical question."&#x000A;    block burning rule response (A): "This dangerous act [would achieve] little."&#x000A;    block waking up rule response (A): "The dreadful truth [are], this [are not] a dream."&#x000A;    block thinking rule response (A): "What a good idea."&#x000A;    report smelling rule response (A): "[We] [smell] nothing unexpected."&#x000A;    report smelling rule response (B): "[The actor] [sniff]."&#x000A;    report listening rule response (A): "[We] [hear] nothing unexpected."&#x000A;    report listening rule response (B): "[The actor] [listen]."&#x000A;    report tasting rule response (A): "[We] [taste] nothing unexpected."&#x000A;    report tasting rule response (B): "[The actor] [taste] [the noun]."&#x000A;    block cutting rule response (A): "Cutting [regarding the noun][them] up [would achieve] little."&#x000A;    report jumping rule response (A): "[We] [jump] on the spot."&#x000A;    report jumping rule response (B): "[The actor] [jump] on the spot."&#x000A;    block tying rule response (A): "[We] [would achieve] nothing by this."&#x000A;    block drinking rule response (A): "[There's] nothing suitable to drink here."&#x000A;    block saying sorry rule response (A): "Oh, don't [if American dialect option is&#x000A;active]apologize[otherwise]apologise[end if]."&#x000A;    block swinging rule response (A): "[There's] nothing sensible to swing here."&#x000A;    can't rub another person rule response (A): "[The noun] [might not like] that."&#x000A;    report rubbing rule response (A): "[We] [rub] [the noun]."&#x000A;    report rubbing rule response (B): "[The actor] [rub] [the noun]."&#x000A;    block setting it to rule response (A): "No, [we] [can't set] [regarding the noun][those] to anything."&#x000A;    report waving hands rule response (A): "[We] [wave]."&#x000A;    report waving hands rule response (B): "[The actor] [wave]."&#x000A;    block buying rule response (A): "Nothing [are] on sale."&#x000A;    block climbing rule response (A): "Little [are] to be achieved by that."&#x000A;    block sleeping rule response (A): "[We] [aren't] feeling especially drowsy."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Pub&#x000A;The pub is cramped but empty. You are the sole proprietor sitting at the bar though there are a few other patrons milling about in the booths.&#x000A;&#x000A;The barkeep polishes a stein and glowers.&#x000A;&#x000A;The Follower arrives from the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-284"/>
+    </children>
+  </item>
+  <item nodeId="node-284">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Pub&#x000A;The pub is cramped but empty. You are the sole proprietor sitting at the bar though there are a few other patrons milling about in the booths.&#x000A;&#x000A;The barkeep polishes a stein and glowers.&#x000A;&#x000A;In the far corner of the pub is a figure in a trench coat. You think they might be eyeing you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-285"/>
+    </children>
+  </item>
+  <item nodeId="node-285">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Outside Pub&#x000A;The Stranger arrives from the east.&#x000A;&#x000A;The Follower arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-286"/>
+    </children>
+  </item>
+  <item nodeId="node-286">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Outside Pub&#x000A;In the far corner of the pub is a figure in a trench coat. You think they might be eyeing you.&#x000A;&#x000A;You can also see a Stranger here.&#x000A;&#x000A;The Stranger goes north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-265">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Outside Pub&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-266"/>
+    </children>
+  </item>
+  <item nodeId="node-266">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">11th-5th&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-267"/>
+    </children>
+  </item>
+  <item nodeId="node-267">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-268"/>
+    </children>
+  </item>
+  <item nodeId="node-268">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The Wanderer arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-269"/>
+    </children>
+  </item>
+  <item nodeId="node-269">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-270"/>
+    </children>
+  </item>
+  <item nodeId="node-270">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-271"/>
+    </children>
+  </item>
+  <item nodeId="node-271">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-272"/>
+    </children>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
+  </item>
+  <item nodeId="node-273">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-274"/>
+    </children>
+  </item>
+  <item nodeId="node-274">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The Wanderer goes east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">talk to barkeep</command>
+    <result xml:space="preserve">The barkeep grunts, acknowledging you but otherwise continuing his studious work of polishing.&#x000A;&#x000A;1) "I'll have a drink." &#x000A;(or 0 to say nothing)&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"Whaddaya want?"&#x000A;&#x000A;1) "Lager." &#x000A;2) "Whiskey." &#x000A;(or 0 to say nothing)&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"Mmhm."&#x000A;&#x000A;And with perfect ease, the barkeep slides your drink across the bar. What service.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a beer&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">talk to barkeep</command>
+    <result xml:space="preserve">The barkeep grunts, acknowledging you but otherwise continuing his studious work of polishing.&#x000A;&#x000A;1) "I'll have a drink." &#x000A;(or 0 to say nothing)&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"Whaddaya want?"&#x000A;&#x000A;1) "Lager." &#x000A;2) "Whiskey." &#x000A;(or 0 to say nothing)&#x000A;&gt;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">"Mmhm."&#x000A;&#x000A;And with perfect ease, the barkeep slides your drink across the bar. What service.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-275">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">wai</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-277"/>
+    </children>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-278"/>
+    </children>
+  </item>
+  <item nodeId="node-278">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-279"/>
+    </children>
+  </item>
+  <item nodeId="node-279">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
+  </item>
+  <item nodeId="node-280">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The Stranger arrives from the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

@@ -2,13 +2,13 @@
 <ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
     <story>
         <identification>
-            <ifid>68CB3F3E-4F6E-46EF-8F22-B0264AB16865</ifid>
+            <ifid>1C1A559B-A73A-4684-83BB-B55785D377E0</ifid>
             <format>glulx</format>
         </identification>
         <bibliographic>
-            <title>The PI's Actual Interrogation</title>
+            <title>QuipTest</title>
             <author>nico ailani carlson</author>
-            <headline>An Interactive Fiction</headline>
+            <headline>An Interactive Revisiting of the phtalkoo.h Test</headline>
             <genre>Fiction</genre>
             <firstpublished>2025</firstpublished>
             <language>en</language>
@@ -17,7 +17,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-11-06</releasedate>
+                    <releasedate>2025-10-30</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -27,10 +27,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-11-06</originated>
+            <originated>2025-10-30</originated>
         </colophon>
         <glulx>
-            <serial>251106</serial>
+            <serial>251030</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>

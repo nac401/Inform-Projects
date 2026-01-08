@@ -101,4 +101,3 @@ To say follower-description:
 [also valid is to just overwrite the rule per NPC]	
 After the Follower going when the room gone to is the location of the player:
 	say "The follower follows you.".
-

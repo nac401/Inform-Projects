@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-116">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-116">
+    <command xml:space="preserve">Test</command>
+    <result xml:space="preserve">Test&#x000A;An Interactive Fiction by nico ailani carlson&#x000A;Release 1 / Serial number 251113 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Test Room&#x000A;This test room is a test room.&#x000A;&#x000A;Derrell is pretty cool, he's here in the Test Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">ask derrell about derrell</command>
+    <result xml:space="preserve">(Derrell)&#x000A;You ask Derrell about himself. He says some cool stuff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">ask derrell about self</command>
+    <result xml:space="preserve">(Derrell_Self)&#x000A;You ask Derrell about himself. He says some cool stuff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">ask derrell about himself</command>
+    <result xml:space="preserve">You ask Derrell about himself. He says some cool stuff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">ask derrell about self</command>
+    <result xml:space="preserve">(Derrell_Self)&#x000A;You ask Derrell about himself. He says some cool stuff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">ask derrell about derrell</command>
+    <result xml:space="preserve">(Derrell)&#x000A;You ask Derrell about himself. He says some cool stuff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">ask derrell about himself</command>
+    <result xml:space="preserve">You ask Derrell about himself. He says some cool stuff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">ask derrell about derrell</command>
+    <result xml:space="preserve">(Derrell)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

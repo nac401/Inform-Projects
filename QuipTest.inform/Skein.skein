@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-82">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-82">
+    <command xml:space="preserve">QuipTest</command>
+    <result xml:space="preserve">Joe Schmoe is yor frend!&#x000A;&#x000A;QuipTest&#x000A;An Interactive Revisiting of the phtalkoo.h Test by nico ailani carlson&#x000A;Release 1 / Serial number 251009 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Joe Schmoe's Place&#x000A;You are in Joe Schmoe's place.&#x000A;&#x000A;You can see Joe Schmoe here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">talk to joe</command>
+    <result xml:space="preserve">[1] Who are you?&#x000A;[2] Do you like a monkey?&#x000A;[3] Say nothing&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"My name is Joe Schmoe and Inform hates me."&#x000A;&#x000A;[1] Why does Inform hate you?&#x000A;[2] I don't care.&#x000A;[3] Ha, ha. Inform hates you.&#x000A;[4] Do you like a monkey?&#x000A;[5] Only crazy people like monkeys.&#x000A;[6] Say nothing&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">"I hate you!"&#x000A;&#x000A; Joe kills you.&#x000A;&#x000A;&#x000A;&#x000A;    *** You have died ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Joe Schmoe is yor frend!&#x000A;&#x000A;QuipTest&#x000A;An Interactive Revisiting of the phtalkoo.h Test by nico ailani carlson&#x000A;Release 1 / Serial number 251009 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Joe Schmoe's Place&#x000A;You are in Joe Schmoe's place.&#x000A;&#x000A;You can see Joe Schmoe here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">talk to joe</command>
+    <result xml:space="preserve">[1] Who are you?&#x000A;[2] Do you like a monkey?&#x000A;[3] Say nothing&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">"Of course I like monkeys."&#x000A;&#x000A;[1] What about apes?&#x000A;[2] What about lemurs?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">"I don't really have an opinion on lemurs."&#x000A;&#x000A;[1] Who are you?&#x000A;[2] I don't care.&#x000A;[3] Ha, ha. Inform hates you.&#x000A;[4] Only crazy people like monkeys.&#x000A;[5] No, I said "a monkey", not "monkeys".&#x000A;[6] I like monkeys too.&#x000A;[7] Say nothing&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">6</command>
+    <result xml:space="preserve">"Now we can be friends!"&#x000A;&#x000A;&#x000A;&#x000A;    *** You have won ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">"Of course I like monkeys."&#x000A;&#x000A;[1] What about apes?&#x000A;[2] What about lemurs?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">"Apes are OK, I guess."&#x000A;&#x000A;[1] Who are you?&#x000A;[2] I don't care.&#x000A;[3] Ha, ha. Inform hates you.&#x000A;[4] Only crazy people like monkeys.&#x000A;[5] No, I said "a monkey", not "monkeys".&#x000A;[6] I like monkeys too.&#x000A;[7] Say nothing&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

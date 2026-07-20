@@ -2,28 +2,22 @@
 <ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
     <story>
         <identification>
-            <ifid>01C0B838-1394-41DE-B426-905E34F3762B</ifid>
+            <ifid>71E9E370-6FDD-4224-B376-F13DF3948F7D</ifid>
             <format>glulx</format>
         </identification>
         <bibliographic>
-            <title>CHARLIE</title>
-            <author>Nico Ailani Carlson</author>
+            <title>Lesson5_10925</title>
+            <author>nico ailani carlson</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
             <firstpublished>2025</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
-        <cover>
-            <format>png</format>
-            <height>500</height>
-            <width>630</width>
-            <description>The cover art.</description>
-        </cover>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-10-30</releasedate>
+                    <releasedate>2025-10-09</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -33,13 +27,12 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-10-30</originated>
+            <originated>2025-10-09</originated>
         </colophon>
         <glulx>
-            <serial>251030</serial>
+            <serial>251009</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
-            <coverpicture>1</coverpicture>
         </glulx>
     </story>
 </ifindex>

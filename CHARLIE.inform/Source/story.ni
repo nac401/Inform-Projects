@@ -200,7 +200,7 @@ After looking in Charlies_Room:
 		
 
 
-[===========DEBRIEF ROOM==============]
+[======================DEBRIEF ROOM============================================]
 Debrief_Room is a room.
 The printed name of Debrief_Room is "Black Box Site - Debriefing Room".
 debrief_begun is a truth state variable.

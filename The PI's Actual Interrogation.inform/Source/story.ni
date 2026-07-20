@@ -13,7 +13,7 @@ The Interrogation Room is a room. "[if visited] It's an old, musty room with a f
 Perry is a man in the Interrogation room. 
 The description of Perry is "Perry stares up at you with a fairly even mix of anger and fear.".
 
-[GREETING]
+[PART 1 OF CONVERSATION - GREETING]
 [printed text takes place in the AFTER of saying hello]
 [so in order to manipulate the text we just have to overwrite the after]
 After saying hello to Perry:
@@ -31,11 +31,35 @@ Understand "murder site", "site", "parking  lot", "lot", "parking", "parking gar
 After quizzing Perry about Crime Scene:
 	say "You ask Perry about the crime scene, the old parking garage on 11th and 8th.[paragraph break]'What? Like what's going on over there? I know someone was killed there a few days ago. Is that what this is about? Who are you? What am I doing here?!'[paragraph break]You'll ask the questions here Perry. Watch it.";
 	
+After informing Perry about Crime Scene:
+	say "You tell Perry about the crime scene, the old parking garage on 11th and 8th.";
+	
+The Body is a subject.
+Understand "corpse", "victim", "dead person", "dead guy" as Body.
+
+perry-body is a truth state variable.
+perry-body is false;
+
+After quizzing Perry about Body:
+	if perry-body is false:
+		say "You ask Perry about the body, that gruesome death that happened at the parking garage.[paragraph break]'Body? What body? Did someone die? Oh, God. Oh, God... What am I doing here? Who are you?'";
+	else:
+		say "You ask Perry about the body you just told him about.";
+	
+After informing Perry about Body:
+	say "You tell Perry about the body.";
+	now perry-body is true;
+	
+	
+
+	
 [MURDER WEAPON]
 [a thing can be quizzed or told about but remember: it must be known]
 Murder Weapon is a [familiar] thing.
 Understand "knife", "dagger", "blade", "shiv" as Murder Weapon.
 
+
+[PART 2 OF CONVERSATION - ASKING]
 After quizzing Perry about Murder Weapon:
 	if the second noun is seen:
 		say "You ask Perry about the murder weapon, the beat up old knife that was found at the scene, covered in blood.[paragraph break]'Murder weapon? Knife? I swear to God, Man. I don't know what you're talking about. Are you some kind of cop? Don't I have rights?[paragraph break]Not as a criminal in the US of A, old boy. [italic type]And that's actually true. Modern slavery is a real thing-- right now, in the US prison industrial complex.[roman type]";
@@ -45,18 +69,27 @@ After quizzing Perry about Murder Weapon:
 [EVIDENCE]
 [things can also be seen and unseen]
 The Evidence is an familiar unseen thing.
-		
+
+[PART 3 OF CONVERSATION - TELLING]		
 After informing Perry about Evidence:
 	if the second noun is unseen:
 		say "You make up some hairbrained story about evidence... It's not very convincing.[paragraph break]'I don't know what to tell you, Man. I don't know what you're talking about! I wasn't there! I swear!'";
 	else:
 		say "You ask Perry about the footage that places him at the scene of the crime, only seconds after the murder is estimated to have taken place.[paragraph break]Perry looks up at you and grins maniacally, 'Oh, we've only just begun Inspector.'";
 		end the story saying "The lights cut out! There is a brief commotion and then when the lights flicker back on... you are alone.";
+		
+After quizzing Perry about Evidence: 
+	if the second noun is unseen:
+		say "You ask Perry about the evidence. You keep it vague since, let's be honest... You have no idea what the evidence is.[paragraph break] 'Perry responds.'";
+	else:
+		say "You ask Perry about the blood trail leading to his car.";
+			
 
 A subject is either spoken or unspoken. A subject is usually unspoken.
 Every subject has a number called times-asked.
 Every subject has a number called times-told.
 
+<<<<<<< HEAD
 Check quizzing:
 	if the noun is a subject:
 		increase the times-asked of the noun by 1.
@@ -64,6 +97,9 @@ Check quizzing:
 Every thing has a number called times-held.
 
 
+=======
+The block quizzing rule response (A) is "You don't know about that, what's the point of asking?".
+>>>>>>> b68b096783fc53777acf84623ebe25a4dab7d6a2
 	
 
 

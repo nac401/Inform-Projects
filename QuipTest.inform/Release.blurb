@@ -1,27 +1,27 @@
 ! Blurb file created by Inform Inform 10.1.2 (build )
 
-status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\Users\NicoA\Unity Projects\Inform-Projects\Test.inform\Build\StatusCblorb.html"
+status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\Users\NicoA\Unity Projects\Inform-Projects\QuipTest.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\NicoA\Unity Projects\Inform-Projects\Test.inform"
-release to "C:\Users\NicoA\Unity Projects\Inform-Projects\Test.materials\Release"
+project folder "C:\Users\NicoA\Unity Projects\Inform-Projects\QuipTest.inform"
+release to "C:\Users\NicoA\Unity Projects\Inform-Projects\QuipTest.materials\Release"
 
 ! Blorb instructions
 
-storyfile leafname "Test.gblorb"
-storyfile "C:\Users\NicoA\Unity Projects\Inform-Projects\Test.inform\Build\output.ulx" include
-ifiction "C:\Users\NicoA\Unity Projects\Inform-Projects\Test.inform\Metadata.iFiction" include
+storyfile leafname "QuipTest.gblorb"
+storyfile "C:\Users\NicoA\Unity Projects\Inform-Projects\QuipTest.inform\Build\output.ulx" include
+ifiction "C:\Users\NicoA\Unity Projects\Inform-Projects\QuipTest.inform\Metadata.iFiction" include
 cover "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
 picture 1 "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
 
 ! Placeholder variables
 
-placeholder [IFID] = "BC0CDA0D-FDB2-4FB3-9523-6DE37CC95FBB"
+placeholder [IFID] = "1C1A559B-A73A-4684-83BB-B55785D377E0"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2025"
-placeholder [TITLE] = "Test"
+placeholder [TITLE] = "QuipTest"
 placeholder [AUTHOR] = "nico ailani carlson"
 placeholder [BLURB] = "A work of interactive fiction."
 

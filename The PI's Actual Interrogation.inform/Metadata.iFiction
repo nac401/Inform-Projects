@@ -17,7 +17,11 @@
         <releases>
             <attached>
                 <release>
+<<<<<<< HEAD
                     <releasedate>2025-11-10</releasedate>
+=======
+                    <releasedate>2025-11-06</releasedate>
+>>>>>>> b68b096783fc53777acf84623ebe25a4dab7d6a2
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -27,10 +31,17 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
+<<<<<<< HEAD
             <originated>2025-11-10</originated>
         </colophon>
         <glulx>
             <serial>251110</serial>
+=======
+            <originated>2025-11-06</originated>
+        </colophon>
+        <glulx>
+            <serial>251106</serial>
+>>>>>>> b68b096783fc53777acf84623ebe25a4dab7d6a2
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>

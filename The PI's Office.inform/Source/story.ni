@@ -90,6 +90,8 @@ Instead of drinking the whiskey:
 [THE HALLWAY, REVISED]
 The Hallway is north of the Investigator's Office. "A drab hallway. The paint is peeling from the walls and the floor creaks beneath your feet. To the east the elevator doors are open, waiting for you to enter as if by fate. To the north is an old, rickety door that you know leads to the stairwell, enemy of your weak calves and smoke drenched lungs.".
 	
+The whiskey is examined.
+
 [THE STAIRS, REVISED]
 The Stairs is a room. The printed name of the Stairs is "Stairwell". 
 The description of the Stairs is "The stairwell is musty, hot, and humid. You already feel your asthma acting up."
@@ -167,3 +169,7 @@ Instead of entering the elevator-exterior:
 	
 Instead of exiting in the Elevator:
 	try going west;
+	
+Every turn:
+	if the action failed:
+		say "bad!";

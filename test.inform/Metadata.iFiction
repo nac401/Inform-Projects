@@ -2,12 +2,12 @@
 <ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
     <story>
         <identification>
-            <ifid>BAD97A06-7D9F-4F7B-950C-6337CEAEF53C</ifid>
+            <ifid>4BBE5117-56E5-486E-9E23-B1CBFB7EFEBC</ifid>
             <format>glulx</format>
         </identification>
         <bibliographic>
-            <title>The PI's Interrogation</title>
-            <author>nico ailani carlson</author>
+            <title>Interrogation-Knight</title>
+            <author>Kavika</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
             <firstpublished>2025</firstpublished>
@@ -17,7 +17,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-11-15</releasedate>
+                    <releasedate>2025-11-17</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -27,10 +27,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-11-15</originated>
+            <originated>2025-11-17</originated>
         </colophon>
         <glulx>
-            <serial>251115</serial>
+            <serial>251117</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>

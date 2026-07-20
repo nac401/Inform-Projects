@@ -53,27 +53,17 @@ After informing Perry about Evidence:
 		say "You ask Perry about the footage that places him at the scene of the crime, only seconds after the murder is estimated to have taken place.[paragraph break]Perry looks up at you and grins maniacally, 'Oh, we've only just begun Inspector.'";
 		end the story saying "The lights cut out! There is a brief commotion and then when the lights flicker back on... you are alone.";
 
-[CHANGING RULE RESPONSES]
-[to get all the responses in the game type "responses all" when playing]
-The block asking rule response (A) is "You don't know about that, what's the point of asking?".
+A subject is either spoken or unspoken. A subject is usually unspoken.
+Every subject has a number called times-asked.
+Every subject has a number called times-told.
 
-The block quizzing rule response (A) is "You don't know about that, what's the point of asking?".
+Check quizzing:
+	if the noun is a subject:
+		increase the times-asked of the noun by 1.
+		
+Every thing has a number called times-held.
 
-The box is a fixed in place openable container in the Interrogation room.
-The box is closed.
 
-The red ball is a thing in the box.
-The blue ball is a thing in the Interrogation room.
-The green ball is a thing in the Interrogation room. 
-
-Rule for writing a paragraph about the box:
-	let contents be the list of things held by the box;	
-	if the box is closed:
-		say "closed";
-	else if the number of entries in contents is 0:
-		say "";
-	else:
-		say "[contents]";
 	
 
 

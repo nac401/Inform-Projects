@@ -35,3 +35,5 @@ Every turn:
 		now Perry is scared;
 	else if a random chance of 1 in 4 succeeds: 
 		now Perry is angry;
+		
+Release along with an interpreter.
